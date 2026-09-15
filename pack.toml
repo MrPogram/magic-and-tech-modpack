@@ -1,12 +1,12 @@
 name = "Magic and Tech"
 author = "Elias"
-version = "0.15.0"
+version = "0.15.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dc1feee1efec714e30971827593ca41ee40463d01e31761194278fad45bcf505"
+hash = "b26c4cc37cf58af8a9279a37892c290c552e3d41e37716219634fa78bb7f8e3e"
 
 [versions]
 forge = "47.4.10"

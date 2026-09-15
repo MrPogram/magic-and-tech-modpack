@@ -772,6 +772,11 @@ hash = "d8aa111370bf9d4c13e0416b2d9c7991091f9c8ea87c1d12dfd9ec1231cfdbfc"
 metafile = true
 
 [[files]]
+file = "mods/power-grid.pw.toml"
+hash = "91deabe5e0461fcded7947b8411f8c37dfcb0cc6902ca3e166462f0bbdad8136"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps-forge.pw.toml"
 hash = "ec4f49ecf455f8d8552cd190708cd7829338e095ddef81abd45afb9f901ae390"
 metafile = true

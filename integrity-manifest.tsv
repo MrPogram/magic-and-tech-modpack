@@ -1,5 +1,5 @@
 magic-tech-integrity-v1
-version	0.15.0
+version	0.15.1
 file	managed	b041160c21ca283ace68a860ce0b43320ce52d843cd9d049230ad275985970bd	242	config/fancymenu/assets/magic_and_tech/button_hover.png
 file	managed	8db601b780099a0096767f4ff8e38d844195e4fa8f4bb33f54fce771de5c32e6	245	config/fancymenu/assets/magic_and_tech/button_inactive.png
 file	managed	84e0c54c7e8e0cc32294f72e314fbab6afb83b2c85b6cc2ba9381cac716dd317	248	config/fancymenu/assets/magic_and_tech/button_normal.png
@@ -170,6 +170,7 @@ file	managed	1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390	86
 file	managed	af5353288540ec9171ee2537c189b9ffbc0540aae3b6eb65694e06723be007a8	7005275	mods/phantasm-1.4.jar
 file	managed	1451bcc41da1e1d3e359b0a11110f84f55785c529edcbb8161667042cee85d74	7078627	mods/pipeorgans-0.9.1+1.20.1.jar
 file	managed	90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691	181437	mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+file	managed	9a0a0cdb6b60d42bfaa8898d606e4a1a084e09335a62ce0853549a3bf6027991	5653584	mods/powergrid-mc1.20.1-0.6.2.jar
 file	managed	213aa9f0f5977e911cc5e957b18b1104050cb108fcb1c0fa9329af08150b9be4	260655	mods/proximitycrafting-1.1.0+forge-1.20.1.jar
 file	managed	c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded	136923	mods/resourcefulconfig-forge-1.20.1-2.1.3.jar
 file	managed	b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8	432753	mods/resourcefullib-forge-1.20.1-2.1.29.jar
@@ -943,6 +944,7 @@ exact	mods	mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar
 exact	mods	mods/phantasm-1.4.jar
 exact	mods	mods/pipeorgans-0.9.1+1.20.1.jar
 exact	mods	mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+exact	mods	mods/powergrid-mc1.20.1-0.6.2.jar
 exact	mods	mods/proximitycrafting-1.1.0+forge-1.20.1.jar
 exact	mods	mods/resourcefulconfig-forge-1.20.1-2.1.3.jar
 exact	mods	mods/resourcefullib-forge-1.20.1-2.1.29.jar
