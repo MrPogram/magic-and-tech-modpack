@@ -1,0 +1,18 @@
+filename = 'immersive_ballistic-1.3.jar'
+name = 'TaCZ: Immersive Ballistic'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3'
+
+[download]
+hash = '6ff408f213789aca13fe8bf60928f47e32c7d2f0562968d4f7d9159f23f4e45a35b73b5a68812c66e87e72f491a1de4c08e1a51f50450ee2aa536022e496349e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1UlR7p7y/versions/Jzy1Orma/immersive_ballistic-1.3.jar'
+
+[update.modrinth]
+mod-id = '1UlR7p7y'
+version = 'Jzy1Orma'

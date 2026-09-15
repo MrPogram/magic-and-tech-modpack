@@ -1,0 +1,8 @@
+name = "Magic and Tech Core"
+filename = "magick_and_tech_core-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MrPogram/magic-and-tech-modpack/releases/download/pack-0.15.0/magick_and_tech_core-1.0.0-forge-1.20.1.jar"
+hash-format = "sha256"
+hash = "4a0710312539238ed0078931da4d52dec3e597acfec4d8f53edc56671b554092"

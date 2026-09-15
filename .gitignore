@@ -1,0 +1,8 @@
+# Packwiz metadata and generated build outputs
+.packwizignore
+.packwiz/
+dist/
+starter/
+updater/build/
+__pycache__/
+*.pyc

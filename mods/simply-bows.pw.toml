@@ -1,0 +1,29 @@
+filename = 'simplybows-forge-0.1.2.jar'
+name = 'Simply Bows'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.2'
+
+[download]
+hash = '3991941e4c8448ea88e4b29082d06042d5fd0fb54e6a62a350eaec3b5e326f43092bd611732073ac03ffdbb7977bf50b762aff22e8020ddfab61224248ed53ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lkqOlxmM/versions/GfdHwhcj/simplybows-forge-0.1.2.jar'
+
+[update.modrinth]
+mod-id = 'lkqOlxmM'
+version = 'GfdHwhcj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hYykXjDp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6avVoBVB'
+type = 'REQUIRED'

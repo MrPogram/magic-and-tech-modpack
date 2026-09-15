@@ -1,0 +1,25 @@
+filename = 'aquamirae-forge-1.20.1-7.1.10.jar'
+name = 'Aquamirae'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '7.1.10'
+
+[download]
+hash = 'f1e2c23f447a34be5ba391552148ba1b23c87589093dedc99e59d10a522ad954a39c3783ac5e0f7be1469f2876fc78249ea4c9a8bedc538d6e1322f69617cec5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/k23mNPhZ/versions/50maZm84/aquamirae-forge-1.20.1-7.1.10.jar'
+
+[update.modrinth]
+mod-id = 'k23mNPhZ'
+version = '50maZm84'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '49C5QgTK'
+type = 'REQUIRED'

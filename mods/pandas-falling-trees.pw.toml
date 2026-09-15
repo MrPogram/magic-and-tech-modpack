@@ -1,0 +1,25 @@
+filename = 'fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar'
+name = "Panda's Falling Trees"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.13.2'
+
+[download]
+hash = 'fe473f1cf369ca7d75dfea0bacafc55692b2b56fe4b352a501536cb757be5da572d8423baec5cb32906a73ee40c667b599209b0e540237ce2a584df657296b37'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i2kUe4lq/versions/om4AFhqW/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar'
+
+[update.modrinth]
+mod-id = 'i2kUe4lq'
+version = 'om4AFhqW'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mEEGbEIu'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'createtaczauto-1.4.8-forge-1.20.1.jar'
+name = 'Create: TaCZ Automation'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.8'
+
+[download]
+hash = '42fca84dfe23223991430fe749a2a51fbabe8545df20957146c86dae27a7c471e0e17369e42a513615e63ec621d2bbada0a2bf826e0ee4237c49fd175bacae4e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ODSZapix/versions/3MDrzPVe/createtaczauto-1.4.8-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ODSZapix'
+version = '3MDrzPVe'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

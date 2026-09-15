@@ -1,0 +1,18 @@
+filename = 'create_optical-0.4.2.jar'
+name = 'Create Optical'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.4.2'
+
+[download]
+hash = 'ae5a5d60d8dbf7b24d2e9c2395722e4a608f7d9fbe65fcc7cd1596a80fc8003cf0ea9c556b12bcc8650d1a330186ce8ac5346cca987d6c6fcc101672f1005216'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kcZ7kwxx/versions/P1wv4ixj/create_optical-0.4.2.jar'
+
+[update.modrinth]
+mod-id = 'kcZ7kwxx'
+version = 'P1wv4ixj'

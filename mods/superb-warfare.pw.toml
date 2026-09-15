@@ -1,0 +1,45 @@
+filename = 'superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar'
+name = 'Superb Warfare'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.8.9-final'
+
+[download]
+hash = 'a4f5b102a0508de4d5f6170be22cd8956bea5cafd865d4d92b9f933a783b3a84887373e823608e928c0d8d79ef010f1e9d67961bbf2561d1d94df97d828de792'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Cd3DYqzn/versions/LAITrju0/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar'
+
+[update.modrinth]
+mod-id = 'Cd3DYqzn'
+version = 'LAITrju0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yBsmrkQQ'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ordsPcFz'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TbriQCWD'
+type = 'INCOMPATIBLE'

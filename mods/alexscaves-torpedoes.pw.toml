@@ -1,0 +1,21 @@
+filename = 'alexscaves_torpedoes-1.0.4.jar'
+name = 'Alexs Caves: Stuff & Torpedoes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = '3fe3c5ad2b99a5156b50d0622131ceb837e1bdc9534200bfcf81b1593f61863e09db233b5e5e1f215d6d3c7a131fb9adbdbb119f424710fa9c38b2ed5f0afc0b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tEfrqNtJ/versions/naJs8D56/alexscaves_torpedoes-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'tEfrqNtJ'
+version = 'naJs8D56'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'U6GY0xp0'
+type = 'REQUIRED'

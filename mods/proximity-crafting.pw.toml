@@ -1,0 +1,32 @@
+filename = 'proximitycrafting-1.1.0+forge-1.20.1.jar'
+name = 'Proximity Crafting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0+forge-1.20.1'
+
+[download]
+hash = '9b0852b928dd19acf8aaadd2499748620b734d22b87ea56b0dc25981758b6e7502481205e474d7d982f283fd61efadef171d993bcfc6cb05d68e9dcffb7b6686'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZFhd1VFL/versions/Afjehl5n/proximitycrafting-1.1.0%2Bforge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ZFhd1VFL'
+version = 'Afjehl5n'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+version = '4r3Kp7U7'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+version = 'WtJS5tVw'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TyCTlI4b'
+type = 'OPTIONAL'
+version = '5hqZZ6lY'

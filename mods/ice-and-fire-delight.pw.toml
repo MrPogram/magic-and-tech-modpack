@@ -1,0 +1,37 @@
+filename = 'ice_and_fire_delight-forge-1.20.1-0.2.5.jar'
+name = 'Ice and Fire Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.2.5'
+
+[download]
+hash = 'b9560ed994afef7db33a68ccbae967dfda8178989a3c7d1c871dfc1ce22f7c25095588e826d77808b67227de649eac0280944bba40d06553db01963b42f9a9a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mGwAPysv/versions/KlKH4KyH/ice_and_fire_delight-forge-1.20.1-0.2.5.jar'
+
+[update.modrinth]
+mod-id = 'mGwAPysv'
+version = 'KlKH4KyH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'EO27GKs1'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LVnvHVBp'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+name = "Sparse Structures"
+filename = "sparsestructures-forge-1.20.1-3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qwvI41y9/versions/oqEnX6AN/sparsestructures-forge-1.20.1-3.0.jar"
+hash-format = "sha512"
+hash = "d4cf093c76af0456ed629ac163753c309f7b7096bb7d826929f9fb64ca29af096705dbe5e12c831a183544506c80067d5eae43882bc65808170ee25fbf482aba"
+
+[update]
+[update.modrinth]
+mod-id = "qwvI41y9"
+version = "oqEnX6AN"

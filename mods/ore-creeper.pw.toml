@@ -1,0 +1,21 @@
+filename = 'Ore Creeper-1.20.1-1.2.1.jar'
+name = 'Ore Creeper'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.2.1'
+
+[download]
+hash = 'f4a6e61fa31afb83c86255ae9768ab587969625ff152fc22651eef9a8048f44e274e81e2f5deae0276e7563627be06dd2fd7efa2da36a2e96105bef19bc04989'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CGmwbV8J/versions/iFMYmCSj/Ore Creeper-1.20.1-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'CGmwbV8J'
+version = 'iFMYmCSj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lfHFW1mp'
+type = 'OPTIONAL'

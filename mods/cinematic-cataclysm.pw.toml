@@ -1,0 +1,25 @@
+filename = 'cinematiccataclysm-1.0.1-1.20.1.jar'
+name = 'Cinematic Cataclysm'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '8d2c2c3456db59b6fd63943e41998048dca1a9b68c73dbc2db0354009bcbd524080dd2cc53a85dde7bf06dacaf5a0ca828fbbc88cbbac31f624cc4f266ac45de'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1WAsDg6d/versions/VxqBCb8y/cinematiccataclysm-1.0.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '1WAsDg6d'
+version = 'VxqBCb8y'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LcmGQfK2'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '46KJle7n'
+type = 'REQUIRED'

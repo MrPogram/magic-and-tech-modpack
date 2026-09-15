@@ -1,0 +1,21 @@
+filename = 'uilib-0.3.6-forge.jar'
+name = 'UI Lib'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.3.6'
+
+[download]
+hash = 'e6578b9ab25ca893f97a933c2e83e84c18788b377ddeff22459a2c423da314e0bf67748846af5edfdcf6ad733d9b25e94419b4af6cf69155c86d08d78fdd3acb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AOEDs9Al/versions/GizE27iH/uilib-0.3.6-forge.jar'
+
+[update.modrinth]
+mod-id = 'AOEDs9Al'
+version = 'GizE27iH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

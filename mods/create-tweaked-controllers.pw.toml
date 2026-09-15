@@ -1,0 +1,18 @@
+filename = 'create_tweaked_controllers-1.20.1-1.2.7.jar'
+name = 'Create: Tweaked Controllers'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.2.7'
+
+[download]
+hash = 'fe776166034fda41a2aea73b952d7d0c79f0da89894f8f8f1a55aeeb5c0f2b4985b728753cf9691b3d0dae653e39400f7c17e09f59317f32618f4cae2be37f43'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H6bJ8Ju4/versions/8XoqeODw/create_tweaked_controllers-1.20.1-1.2.7.jar'
+
+[update.modrinth]
+mod-id = 'H6bJ8Ju4'
+version = '8XoqeODw'

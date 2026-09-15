@@ -1,0 +1,18 @@
+filename = 'WunderLib-20.0.1.jar'
+name = 'WunderLib Forge'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '20.0.1'
+
+[download]
+hash = '00b893b1a03f7d0e2339caa4916fc5595ac20eb11b60ad7fd68ca4485620bae670fec0c5694216c4a863cdd2948b36a412f9924219e6279d407c6e3178642028'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5T56XRUO/versions/FFIJ4Ioj/WunderLib-20.0.1.jar'
+
+[update.modrinth]
+mod-id = '5T56XRUO'
+version = 'FFIJ4Ioj'

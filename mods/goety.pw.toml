@@ -1,0 +1,25 @@
+filename = 'goety-2.5.56.0.jar'
+name = 'Goety - The Dark Arts'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.5.56.0'
+
+[download]
+hash = 'f97b525bba02604db71f15ad5cb17aaaeddb3491b1250c26b0cc06759ca16672a6c2bcd5067e5e8ef169da83ada87c38f8349ecffc9d8a6c58ecabe576e46ed9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4ZVIxU8x/versions/fKt6XTwN/goety-2.5.56.0.jar'
+
+[update.modrinth]
+mod-id = '4ZVIxU8x'
+version = 'fKt6XTwN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'REQUIRED'

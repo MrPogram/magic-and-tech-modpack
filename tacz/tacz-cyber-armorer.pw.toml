@@ -1,0 +1,13 @@
+name = "[TaCZ]Cyber Armorer"
+filename = "Cyber Armorer-1.1.5_for114.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2a7f0f3868faae2fbca1a483f9d1ed3c56381283"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7320211
+project-id = 1187336

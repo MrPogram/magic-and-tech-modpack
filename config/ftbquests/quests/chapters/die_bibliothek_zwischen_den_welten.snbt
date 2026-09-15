@@ -1,0 +1,83 @@
+{
+  default_hide_dependency_lines: false,
+  default_quest_shape: "circle",
+  filename: "die_bibliothek_zwischen_den_welten",
+  icon: "magic_classes:library_anchor",
+  id: "4C49425241525931",
+  order_index: 1,
+  quest_links: [ ],
+  quests: [
+    {
+      description: ["Als du den Eisenbarren in die Jukebox gesteckt hast, hast du einen Riss in der Realität geöffnet. Dieses Rift führt nicht einfach an einen anderen Ort, sondern aus deiner Dimension hinaus."],
+      id: "4C49425241525101",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:library_tutorial/rift_created",
+        criterion: "",
+        id: "4C49425241525401",
+        type: "advancement"
+      }],
+      title: "Ein Riss in der Realität",
+      x: 0.0d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["4C49425241525101"],
+      description: ["Hinter dem Rift liegt die Interdimensionale Bibliothek: ein Reich zwischen den Dimensionen. Hier kannst du eine sichere, dauerhafte Basis bauen, die von vielen Welten aus erreichbar ist."],
+      id: "4C49425241525102",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:library_tutorial/entered_library",
+        criterion: "",
+        id: "4C49425241525402",
+        type: "advancement"
+      }],
+      title: "Das Reich dazwischen",
+      x: 2.5d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["4C49425241525102"],
+      description: ["Der Bibliotheksanker bindet deinen Weg an diese Basis. Benutze ihn außerhalb der Bibliothek, um jederzeit dorthin zurückzukehren. Du behältst den Anker auch nach dem Tod."],
+      id: "4C49425241525103",
+      size: 1.5d,
+      tasks: [{
+        id: "4C49425241525403",
+        item: {Count: 1b, id: "magic_classes:library_anchor"},
+        type: "item"
+      }],
+      title: "Ein Anker zur Basis",
+      x: 5.0d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["4C49425241525103"],
+      description: ["Benutze den Anker innerhalb der Bibliothek, um zu dem Ort zurückzukehren, von dem du zuletzt eingetreten bist. So kannst du mitten in einer langen Expedition oder vor einem Dungeon deine Basis besuchen, Vorräte ordnen und anschließend weiterreisen, statt den ganzen Weg erneut zurückzulegen. Ein neuer Rift-Eintritt setzt deinen Rückkehrpunkt neu."],
+      id: "4C49425241525104",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:library_tutorial/returned_with_anchor",
+        criterion: "",
+        id: "4C49425241525404",
+        type: "advancement"
+      }],
+      title: "Der Weg zurück",
+      x: 7.5d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["4C49425241525104"],
+      description: ["Für einen eigenen Reisepunkt stelle außerhalb der Bibliothek eine Jukebox auf und befestige ein Schild direkt an einer ihrer vier Seiten. Die erste nicht leere Zeile des Schildes wird zum Namen. Setze dann einen Eisenbarren in die Jukebox ein: Das Rift öffnet sich, und in der Bibliothek entsteht automatisch eine benannte Reisestation. Setze dort einen weiteren Eisenbarren ein, um zum gespeicherten Punkt zurückzureisen. Halte im Abstand von drei bis sechs Blöcken um die Quell-Jukebox einen sicheren Standplatz frei."],
+      id: "4C49425241525105",
+      size: 1.5d,
+      tasks: [{
+        id: "4C49425241525405",
+        type: "checkmark"
+      }],
+      title: "Eigene Reisepunkte",
+      x: 10.0d,
+      y: 0.0d
+    }
+  ],
+  title: "Die Bibliothek zwischen den Welten"
+}

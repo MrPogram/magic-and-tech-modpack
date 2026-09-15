@@ -1,0 +1,981 @@
+magic-tech-integrity-v1
+version	0.15.0
+file	managed	b041160c21ca283ace68a860ce0b43320ce52d843cd9d049230ad275985970bd	242	config/fancymenu/assets/magic_and_tech/button_hover.png
+file	managed	8db601b780099a0096767f4ff8e38d844195e4fa8f4bb33f54fce771de5c32e6	245	config/fancymenu/assets/magic_and_tech/button_inactive.png
+file	managed	84e0c54c7e8e0cc32294f72e314fbab6afb83b2c85b6cc2ba9381cac716dd317	248	config/fancymenu/assets/magic_and_tech/button_normal.png
+file	managed	d8514139fc21159b21aaf27141f7ff4e306e4d76cbbd15daf2891eeb181f4b3b	288952	config/fancymenu/assets/magic_and_tech/logo.png
+file	managed	c76fc8e7901504e66c26abf6d7a1cea6c8039b584c9c592720b64ec0a81561f5	149685	config/fancymenu/assets/magic_and_tech/main_menu_background.png
+file	managed	86ba7ce82a858a23dd5cb9e533b2ab0b7c74b720d3f89c1aa71352d232da418a	973584	config/fancymenu/assets/magic_and_tech/menu_theme.ogg
+file	managed	a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9	149	config/fancymenu/customizablemenus.txt
+file	managed	b8ef41715af05654ad62e8b1d2f70779e6bda2cd20ccd33f0f318dc9d156bce1	59051	config/fancymenu/customization/magic_and_tech_main_menu.txt
+file	managed	bfbbf611d8d61c0d09ba194bab3230090f26ba2e53c5c7a1769efd327ee97dfa	26	config/ftbquests/quests/chapter_groups.snbt
+file	managed	65286767edf80422831b33a53a102bcca188181602e6460411943cc4597dbbf0	2043	config/ftbquests/quests/chapters/der_ruf_des_voids.snbt
+file	managed	23632ae938def4f6311ae278b221520da351b92ff46b81006c27aadaf0355620	3413	config/ftbquests/quests/chapters/die_bibliothek_zwischen_den_welten.snbt
+file	managed	59a71d077ab8250e99e309076b38e7775eda2a80a34d33de8c2253224430bcd5	424	config/ftbquests/quests/data.snbt
+file	managed	2951cb48c8ceb7c4ab70652af11efc6f7fdfa65237a718697c4282026cd5fa1e	312	config/iceandfire-client.toml
+file	managed	cb43764aa6ec25b3b0bae8fd89b84c9b8d85362c40fe08a61783159eacae4750	83	figura/avatars/MagicClasses/avatar.json
+file	managed	3eec0f63dc8853693e47d2b22f368e2ba39711abb1ef0caa6c08bcd518f79a00	91533	figura/avatars/MagicClasses/healer.bbmodel
+file	managed	79ae3c532aceef0caabe53cf06c57af6b672fa0147446933a593966cc9896d05	111692	figura/avatars/MagicClasses/knight.bbmodel
+file	managed	0b965cacd410ede38f667eab4cc9be99f869ccf8b5e8050ad8b2af0adc5b715e	1634	figura/avatars/MagicClasses/knight_texture.png
+file	managed	d45d14ca24754528a0a7b73efb48395f4ee4347f2d9b3e13bc6679eeb9cfd7cf	9934	figura/avatars/MagicClasses/script.lua
+file	managed	c45d7ad1ad9365ef02059685b3b8025a833c483ea0734d3d93f6c42f097e6e02	1717	figura/avatars/MagicClasses/texture.png
+file	managed	41688a2ba90e5b07beb0e1844cfd0b21a4294b1073de144ae0a7f519b336a18b	53429226	mods/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar
+file	managed	68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a	227511	mods/ApothicAttributes-1.20.1-1.3.7.jar
+file	managed	49998a734c3c6bb7da36cfd6c28e284fd1f7aed6cb9f647cbdc16e683b212969	2236627	mods/BCLib-20.0.12.jar
+file	managed	8c24d905c4c0d4859c48b210922ebf3b4cb7a316eecc5bf845e57312e258d190	97337194	mods/BetterEnd-20.0.11.jar
+file	managed	6506a02d9c9092e284d33e8b40e1f89a81ba49f4738a478722f201f087c59220	104374	mods/Compat_AlexsCaves-Enlightend.jar
+file	managed	7ba069b7a70070112fff519d60308a4f2176238175941365be61472e0a2779e0	953963	mods/CreateDragonsPlus-1.11.8.jar
+file	managed	3565ddea132785a044ddfca670610a870c976e52d47a957d0a5f1db78563d046	1144128	mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar
+file	managed	f1ca64e66daefefda1c7406e104a0d38d5a0c75c69d5620fce19dba1f444566c	5293864	mods/Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+file	managed	0d9a7705f39a9eac19c33e0fbe5422280048991a341dc0d9471bff32111c502c	174387	mods/ExplorersCompass-1.20.1-1.4.0-forge.jar
+file	managed	47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7	3313327	mods/FarmersDelight-1.20.1-1.3.2.jar
+file	managed	5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e	26600	mods/FastSuite-1.20.1-5.1.2.jar
+file	managed	8389c409257541c06789cd2287725d3df173168d9a0ebb9ff44c9b319e8b8026	29438	mods/Highlighter-1.20.1-forge-1.1.9.jar
+file	managed	91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3	134551	mods/Iceberg-1.20.1-forge-1.1.25.jar
+file	managed	85b644b2f6cbcc3a73d240229065692717713e3d2cd2b60cb0c8eea9946f0535	24607	mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar
+file	managed	cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae	276231	mods/JustEnoughResources-1.20.1-1.4.0.247.jar
+file	managed	1b9db7636db3a1bcfb015d19c6d44b663e454f05e12e472d128c60f2b5214d3e	258713	mods/Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar
+file	managed	c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362	73916104	mods/L_Enders_Cataclysm-3.31.jar
+file	managed	15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e	55258	mods/LegendaryTooltips-1.20.1-forge-1.4.5.jar
+file	managed	520c07bceb8987c4bb355d32b495ae03e4f106553df47b1a9691a08420016fa2	287393	mods/MRU-1.0.4+1.20.1+forge.jar
+file	managed	bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197	227495	mods/NaturesCompass-1.20.1-1.12.0-forge.jar
+file	managed	403b23457288c624a55feb90d5e813c88c23a611bc42cda397c4bfac94b4c3a3	33251	mods/Necronomicon-Forge-1.6.0+1.20.1.jar
+file	managed	5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047	424035	mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar
+file	managed	683f228d360590fe89085ebbecf09f3a5f973888d29cc98fb2d7233c4f2c1c66	487923	mods/Ore Creeper-1.20.1-1.2.1.jar
+file	managed	cce01d47db38bf5d369173108b80c74c7114860ddd421a26b142dcada9f074f7	500990	mods/ParticleEffects-1.5.0+1.20.1+forge.jar
+file	managed	05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5	642732	mods/Patchouli-1.20.1-85-FORGE.jar
+file	managed	f906486a347e0d151406969a66e8e402571c39305bde341cd8d1cac68ad227be	70069	mods/Perception-FORGE-0.1.4+1.20.1.jar
+file	managed	1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571	282474	mods/Placebo-1.20.1-8.6.3.jar
+file	managed	290cce2b6e9916c5713769fc830475d8a51e9745f5b33688e32a35dd10d43e37	5567573	mods/Presence Footsteps [FORGE] 1.0.0.jar
+file	managed	b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240	52205	mods/Prism-1.20.1-forge-1.0.5.jar
+file	managed	d4be0cc35c5adeb41dafa3a980374352a431f28754676ac13cf03ad8ecd56df7	402799	mods/ShoulderSurfing-Forge-1.20.1-5.0.7.jar
+file	managed	3774e6ba3fa24a45b0477525523e97c5354b44b69b02134c96b189c76e8caec8	5219375	mods/SimplyTooltips-forge-0.1.3.jar
+file	managed	2fa22c59f967e963c97e7d4374a8713247402fa6c87654b3057a1c248217c7fd	10974911	mods/Sounds-2.2.1+1.20.1+forge.jar
+file	managed	0e98b72472ff78464f6e69025bb47f942e7f66a976382fbb87ceff765a8b00cf	17042037	mods/Steam_Rails-1.7.3+forge-mc1.20.1.jar
+file	managed	f3e375be84c9e84d6ea7d3679635424d536c59d80c49cf5d669abbcd1b3f8b73	14375300	mods/TheOuterEnd-1.0.13.jar
+file	managed	9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984	2864275	mods/Towns-and-Towers-1.12-Fabric+Forge.jar
+file	managed	33d30150d69f0b1f1b077dab0edbefdca5e274bfa9a56578c6fe35d4dc62ccbd	227846	mods/WunderLib-20.0.1.jar
+file	local	c1451c0392b343e54248eb96f07015a75a400aa42db7a66115bb56537436bb8d	85213550	mods/aether_ii-1.20.1-1.0.13-forge.jar
+file	managed	131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0	74871657	mods/alexscaves-2.0.2.jar
+file	managed	746084af019a208dde2ca17e8ca8e30e64b4ee69ff4167f4b692aec4e7ad5fcd	1476678	mods/alexscaves_torpedoes-1.0.4.jar
+file	managed	bf7cedf6d23854b01e3e13190a5570a3a8ef5c037765e67812d9acd9b3b99c18	25896970	mods/aquamirae-forge-1.20.1-7.1.10.jar
+file	managed	218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af	580602	mods/architectury-9.2.14-forge.jar
+file	managed	31964f41303ee2265ac4dbed66c6af20c11bd01637016d13e8de091e87fb78f7	71944	mods/ars_creo-1.20.1-4.3.0.jar
+file	managed	1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af	12430237	mods/ars_nouveau-1.20.1-4.12.7-all.jar
+file	managed	e792464a14ab2edd4e368a07c1421b6cf3e3d146a02cf182eeaa02b25637171f	1212653	mods/arsdelight-1.2.2.jar
+file	managed	482d12cdcba5c029e8c22fd34c4913edc22b0ba1f5c5121613f0974192323fb7	1066523	mods/azurelib-neo-1.20.1-3.1.12.jar
+file	managed	2e61c531121902499b558aa22b9860a5a1d7aaa26f9b5ea727d8a758d808470f	31898	mods/baguettelib-1.20.1-Forge-1.1.6.jar
+file	managed	bacef3f365dc41a786deff1384a221302ce6aefc2a91eb765f85a5a641a9b408	561670	mods/balm-forge-1.20.1-7.3.42.jar
+file	managed	49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1	1054339	mods/bettercombat-forge-1.9.0+1.20.1.jar
+file	managed	0319729b58edf917b88cfb9b0cd939bb19e778c29a8083a0a61d869419032f6c	1623254	mods/bits_n_bobs-0.0.41.jar
+file	managed	41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0	1165189	mods/blueprint-1.20.1-7.1.4.jar
+file	managed	43cabe35f0618c0bd01af02e7568ca6f15fd32bb6a90d04c9898bb01e8dc1e81	40125	mods/caelus-forge-3.2.0+1.20.1.jar
+file	managed	be9cc0afc969a7f50b7aaa4d5d29bdbf83fa392c5d6bc2e83c9a06c32f0320b9	8975	mods/cataclysm-to-magic-fix-1.1.0.jar
+file	managed	0350c2ea731861f516c285ce668e6dce2958dc88d1e1edc9f53b31af7d584875	19288	mods/cataclysm_compat_1.20.1-1.0.2.jar
+file	managed	2bd504cd4fa0d1cd8981d4e4f26a37a8bb0e900b8011b3cbb0ec048f824eb139	700109	mods/cinematiccataclysm-1.0.1-1.20.1.jar
+file	managed	56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce	3185275	mods/citadel-2.6.3-1.20.1.jar
+file	managed	1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2	1181413	mods/cloth-config-11.1.136-forge.jar
+file	managed	93771b365320a08d0516633afb210f36f5aa20c0906dc4f1ead394250f660736	87042	mods/cobweb-forge-1.20.1-1.0.1.jar
+file	managed	7c820e87a3261819c6ed4a030ecf331248c2d72fb625dba57ea1b32ed4b3f454	7213151	mods/companions-forge-1.20.1-1.3.4.jar
+file	managed	a8183b429b7a15b876b83256ab7a5038175936f7074f0ff78535016f49b18a2e	4154428	mods/coolrain-1.20.1-Forge-1.0.3.jar
+file	managed	bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a	1996097	mods/copycats-3.0.7+mc.1.20.1-forge.jar
+file	managed	11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f	64187	mods/coroutil-forge-1.20.1-1.3.7.jar
+file	managed	9f639204588512abe767bb5c2ff97d41f50352af916de939ac8029c95d57ae7b	245643	mods/corpse-forge-1.20.1-1.0.23.jar
+file	managed	eed0e0936172e4ad9c2ad4d5e4dd2e740f27ff2363349a209f32a396cb2b6535	22535	mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar
+file	managed	6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0	19170905	mods/create-1.20.1-6.0.8.jar
+file	managed	a0133d6a3e5a1e0fe76bdbd0e9aa42262a3dc841c47fc6215aa232ed0ceeea62	1652553	mods/create-enchantment-industry-2.5.2.jar
+file	managed	65d60a6bb7a53629af094260046a64e5c76a7950824fd4a3797fc07b1f01cd7e	1358197	mods/create-stuff-additions1.20.1_v2.1.2.jar
+file	managed	f425d697818ebc4a9b208cc5b1cdf4cb8846f26c9519a55dd114d3af96b2c730	1112673	mods/create_factory_logistics-1.20.1-1.4.7.jar
+file	managed	8f0c587d515df58b1fc8ae110598071cea7be8b32f6c3ad514c5a1090b9127d5	212715	mods/create_generators-1.0.0-forge-1.20.1.jar
+file	managed	1cc0a11d0b78538c15b248ea029d58f1f3bffa6ea8a876fb114da8821a648dc3	545241	mods/create_hypertube-0.6.0-FORGE.jar
+file	managed	00027252a5082ed5d4d6b2081d6b4f5152cf10cbaa8b42a2aaa7caf10331e19d	489127	mods/create_mobile_packages-1.20.1-0.6.1.jar
+file	managed	9b83f7ee7ddd4a5d27713a4194655d154af7127b301c05dced06ca74c12f64b9	8008586	mods/create_optical-0.4.2.jar
+file	managed	749b9cf51715f3db110f026db3fb2d004a4dc6b5301691ae53b8196a5dff6766	227962	mods/create_power_loader-2.0.3-mc1.20.1.jar
+file	managed	2b0fb96c617d65f419e2d7f3875e89f79f1fdd89d89dddd4520f42da02b625a9	308064	mods/create_tweaked_controllers-1.20.1-1.2.7.jar
+file	managed	bf0179c4597f6c4819ae846f3ad5a30ce164415c67b17759a807c1878921424e	117028	mods/create_waystones_recipes-2.0.1.b.jar
+file	managed	9bf3ae15d86ec95d128542caf10e4b5498e49ca02f725b9302d6daecd5eae1db	1577313	mods/createaddition-1.20.1-1.3.3.jar
+file	managed	6ae7511fc3c911168713d6281cd823eca8931a512f5f50917506e317bac640b3	25214	mods/createbetterfps-1.20.1-1.1.2.jar
+file	managed	f70e2a8f1170fe87d212588ccf5a96d2a2aa21d6c01f5d584c53b226203bc57e	84234	mods/createendertransmission-2.1.1-1.20.1.jar
+file	managed	bb8ca1a5d27f658307d261846fdc1464a5798c11cbd238c60358fc134b37b1e7	384668	mods/creategoggles-1.20.1-6.1.1-[FORGE].jar
+file	managed	a41510ddead83b2a098daf8c6d54f5aeeaf4564d5b05749773699e61eda3c63a	9078948	mods/createnuclear-1.20.1-2.0.0-forge.jar
+file	managed	fcd8f81ad8e8e56cdd0fe5bc75cd946003fa3edc188a8c23ec36979d2722b27b	432699	mods/createoreexcavation-1.20-1.6.5.jar
+file	managed	006bc8b2fbbc135bcff9c6794071f8da13d91fd4d71f22fa9700eff063c13ba4	630264	mods/createtaczauto-1.4.8-forge-1.20.1.jar
+file	managed	4d32ff52bae19047d550450e75ffd6be025ab1ffd7c783656966d6f2a19a4504	882450	mods/createtransmission-1.2.2+forge-create6-1.20.1.jar
+file	managed	212eb2a2d767f54fbfbac2336c63fe2bd1aae4d827ab358da329a746358b6dd9	1456860	mods/creeperoverhaul-3.0.2-forge.jar
+file	managed	3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f	431318	mods/cristellib-1.1.6-forge.jar
+file	managed	1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f	398066	mods/curios-forge-5.14.1+1.20.1.jar
+file	managed	3213b0a5ae3b487360bc2cafd036a11f35c4e1465122e18e218968c0771ddc42	281881	mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar
+file	managed	eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb	1320675	mods/embeddium-0.3.31+mc1.20.1.jar
+file	managed	4e063b54acec24a59493d29254f29f4b68e74161b72016416e7c7bf92fe8fdd0	68019	mods/end_villager_outpost-1.0.0-forge-1.20.1.jar
+file	managed	e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2	15611923	mods/endergetic-1.20.1-5.0.1.jar
+file	managed	18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5	1208062	mods/endermanoverhaul-forge-1.20.1-1.0.4.jar
+file	managed	f89ecbfdb080808d5bc4d2352abdbe4353e54a6ecebf43549113305619f4d953	5887	mods/endermite-expansion-1.0.0.jar
+file	managed	d262e71af4d811208b6ddca243356367a0a8c6d46361dcdaf6217a0c651c9b96	179456	mods/endersdelight-forge-1.20.1-1.1.3.jar
+file	managed	80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4	21506560	mods/enlightend-5.0.14-1.20.1.jar
+file	managed	db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa	1590221	mods/entityculling-forge-1.10.5-mc1.20.1.jar
+file	managed	777f2399865fb9b3d6025a4c2ab6fa5344740f87d8cf6c313f0ceceed034efa6	1497565	mods/epicdeathscreen-forge-1.20.1-1.0.0.jar
+file	managed	5ec4107b0fc66b3de24e61b7fe20aebebce870340aa42144b2a15360c8058b16	171206	mods/ethecore-0.1.0.jar
+file	managed	30d6adf4ef9c46da86ec02b369f6c270da911ebfe6c06830fb66aecc0ccdc07e	39852481	mods/etheria-0.4.2.jar
+file	managed	a95ccaa83a94468357bd57806a2e1fd36f1e0aa04fd04b51df632f56ccb53e66	85868	mods/explosiveenhancement-forge-1.20.1-1.1.0-client.jar
+file	managed	6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1	4025908	mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar
+file	managed	60aa6a94e0c021c989bbea978ea6a233ac2e23e364f15825a8beb7b5ab0b94cf	26181250	mods/fancymenu_forge_3.9.12_MC_1.20.1.jar
+file	managed	27dc0b1bd0ec9fae0ab97ebeb09cc4d8cf16cdae7eae12d2e0e49c0264e0cd6b	1647611	mods/fdlib-1.0.9-1.20.1.jar
+file	managed	9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54	123034	mods/ferritecore-6.0.1-forge.jar
+file	managed	3988f6263875fad029e8ecdf692d3477c97d0e278505895936a97ff6f07c9e85	2401921	mods/figura-0.1.6+1.20.1-forge-mc.jar
+file	managed	ba1aaac59e4b4e0f5f9b4d46d55e9b2e3cd051fb4384da1f4b89a70d30a4eb18	69739	mods/forgivingvoid-forge-1.20.1-10.0.3.jar
+file	managed	c5d12e49e31af941f0dc96b2c9e6e6368ceaa0d4dac24f83af4431f49bca262d	2737065	mods/fragmentum-forge-1.20.1-1.5.2.jar
+file	managed	41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7	780558	mods/ftb-library-forge-2001.2.13.jar
+file	managed	9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68	1255469	mods/ftb-quests-forge-2001.4.22.jar
+file	managed	b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07	252579	mods/ftb-teams-forge-2001.3.2.jar
+file	managed	d39cd5d6b23b86468937e306776dc70faba900072c7e359ce9348d8a3c26982e	2374667	mods/fzzy_config-0.7.6+1.20.1+forge.jar
+file	managed	d01f547bf517437408bb0116aea3a834c00e98eefe78f60bda92287f4b1eb0bc	1038979	mods/geckolib-forge-1.20.1-4.8.1.jar
+file	managed	bbe97ba224fe539c5ba4afa6f7d44959aa2c708165e684ad3dc58d4c7a94390a	78558685	mods/goety-2.5.56.0.jar
+file	managed	77e511c19c6a89552b14a6fd6da6354587bf94651c356130d272a3c0f260251f	1751823	mods/goety_cataclysm-1.20-1.8.2.jar
+file	managed	5c87ce7e371bc2dbcbcbe1b86bcaa5bc0589480cadf9dd795a7154c99d2b71e9	1157845	mods/grand-teleport-forge-1.20.1-forge-build300.jar
+file	managed	45fbfe2ef0e58182620200a885c75271bf01dcba320ed9b131c107a7a08dff41	657489	mods/gtbcs_cataclysmic_uis-1.0.3+1.20.1.jar
+file	managed	29a13d459b907a57ecaebeffef6b1b1fa8a0386e30e8420222c5699d3ec809f8	598087	mods/ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+file	managed	2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82	21854126	mods/iceandfire-2.1.13-1.20.1-beta-5.jar
+file	managed	b1d037714bb106e02476b97976e5d8245b321b5541a97cc4c06f2d24b542539e	6939506	mods/immersive_ballistic-1.3.jar
+file	managed	b88353d6efe18635bac2d4169e704320987e9678fd683217195dcdcf2c1ca1ba	2269048	mods/immersive_weathering-1.20.1-2.0.5-forge.jar
+file	managed	22d256df6dc6249e3421c0cffd1aa4454434fe840401171d288baa2da7dfd441	489265	mods/interiors-1.20.1-forge-0.6.0.jar
+file	managed	db4c7cc853c0ffb1d36a0f19af22c224a8608b2a55c747adc70fb44455baf097	428969	mods/irons_lib-1.20.1-2.1.0.jar
+file	managed	b3a2cc3eac6990dd5badb845bb2e2b74ff89539bc54d793045ee1af6c70cd155	15554022	mods/irons_spellbooks-1.20.1-3.16.2.jar
+file	managed	ad71c5ad93d305fd9c1f1dcecea2b7431886452baca5b324e80ba3c1241a3e3b	191607	mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar
+file	managed	4d69c121dcc103a080850ada8cee1c6802e24ec077a6128b23a48ec5c9cebbef	467661	mods/jawas_lightsaber-forge-1.20.1-0.4.jar
+file	managed	0c5f1aeca0376c1c5d55ccb7bbe9bb391891ce12ef8cb8cb437150abee9a19c9	1426211	mods/jei-1.20.1-forge-15.21.0.148.jar
+file	managed	6d443123a7b2159b2e64545bb50109b359c72103b8c511390e7dde58e3b7c518	597960	mods/justenoughbreeding-forge-1.20.1-3.0.1.jar
+file	managed	7d92aeb925bb3ffc7ad796db758dbd23a61d58ad5d86e34d831717048a2bce7a	1061647	mods/knightlib-forge-1.20.1-2.0.1.jar
+file	managed	e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b	625185	mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
+file	managed	6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae	7442998	mods/kotlinforforge-4.12.0-all.jar
+file	managed	ae6a40d1b3639b39819d131f11adc914114583441a9687936d3f90d9c3b06775	44857823	mods/legendarymonsters-2.1.22 MC 1.20.1.jar
+file	managed	d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871	101931	mods/lionfishapi-3.0.jar
+file	managed	01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51	463485	mods/lootr-forge-1.20-0.7.35.94.jar
+file	managed	7ef6e59f815a80fb90aff1f00e79aad503784361b633c7bdb9fde5b41f7a4e01	1402153	mods/lostcities-1.20-7.5.0.jar
+file	managed	42f3b2f5a4194baa10ce76720b5770290a64105634f0dcd9182fc0ef33800e6e	5439652	mods/lrtactical-1.20.1-0.4.1.jar
+file	managed	f7fd968b62d07fcc46aac67c90a8d53f9f1cfb7099b56aaef27a9510293015a0	1994452	mods/magic_classes-0.15.0.jar
+file	managed	4a0710312539238ed0078931da4d52dec3e597acfec4d8f53edc56671b554092	678272	mods/magick_and_tech_core-1.0.0-forge-1.20.1.jar
+file	managed	933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8	37178	mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
+file	managed	7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d	1002234	mods/modernfix-forge-5.27.66+mc1.20.1.jar
+file	managed	f4dff8971f6446d904cab87deab698292811f1568dc794c4167ca3018e8be13e	14706695	mods/mofus_broken_constellation-0.9.0-forge-1.20.1.jar
+file	managed	007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e	1419416	mods/moonlight-1.20-2.16.34-forge.jar
+file	managed	7000e49b13c0fb484f288f061cb58dbc8d82bc666fe5c9d0013d59fb62da7cc0	29105	mods/mowzies_cataclysm-1.2.0.jar
+file	managed	e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c	36033850	mods/mowziesmobs-1.8.2.jar
+file	managed	510537a4149e3e838077750dd94906e582195eb55200344077218bddddd688c7	1944068	mods/notenoughanimations-forge-1.12.4-mc1.20.1.jar
+file	managed	0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef	2851119	mods/oculus-mc1.20.1-1.8.0.jar
+file	managed	49b0f81f23507cbd3aac69b7868d23fde24d68e146a2e7e098d75bd2795e602b	2947560	mods/oddities-1.0.1-forge-1.20.1.jar
+file	managed	5244b8b4434cd1bb6f4ebb71a36008218e700ed3245c14f867b8dc5487137c64	2307868	mods/origins-forge-1.20.1-1.10.0.9-all.jar
+file	managed	1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390	864398	mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar
+file	managed	af5353288540ec9171ee2537c189b9ffbc0540aae3b6eb65694e06723be007a8	7005275	mods/phantasm-1.4.jar
+file	managed	1451bcc41da1e1d3e359b0a11110f84f55785c529edcbb8161667042cee85d74	7078627	mods/pipeorgans-0.9.1+1.20.1.jar
+file	managed	90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691	181437	mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+file	managed	213aa9f0f5977e911cc5e957b18b1104050cb108fcb1c0fa9329af08150b9be4	260655	mods/proximitycrafting-1.1.0+forge-1.20.1.jar
+file	managed	c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded	136923	mods/resourcefulconfig-forge-1.20.1-2.1.3.jar
+file	managed	b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8	432753	mods/resourcefullib-forge-1.20.1-2.1.29.jar
+file	managed	e7ae955174869497a7aa855cf859aba6f37abbb2a93b53e9e05935cf7709cc0a	288408	mods/rightclickharvest-forge-4.6.1+1.20.1.jar
+file	managed	a941a3a288e16729862d87228d7355636026043802682618a9ba458baed2ef7d	24710431	mods/saintsdragons-0.9.2+forge-1.20.1.jar
+file	managed	7e20a17db10d74507966dcf4188fcff83c39acf4b4132ab9e0d4b3102d2b0f62	3880241	mods/simplybows-forge-0.1.2.jar
+file	managed	0e14267a20198b716880a7af52db8105291d75d7b99e2f0ceb00764462f4a196	278083	mods/simplycataclysm-1.0.1+1.20.1+forge.jar
+file	managed	f08e36c63da11e8264bcb3e25bc7ded93427e8a62c95a33b7e920ee87228ea3f	1570304	mods/simplymore-forge-1.1.3.jar
+file	managed	318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f	15202091	mods/simplyswords-forge-1.56.0-1.20.1.jar
+file	managed	bafdcbeda044603b59eb16059829a6698c1a58d1ce865b8658e598f2718d315a	588268	mods/sliceanddice-forge-3.6.0.jar
+file	managed	e9b20bc98b30a6186bf6fc5521e9b130b1d0a1e20e9588cf438f56e81ba07380	341463	mods/soul-fire-d-forge-1.20.1-4.0.11.jar
+file	managed	1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108	206984	mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar
+file	managed	7cdd38cf72aa764cccc98c8626b434f05a488a23a1339c2b0a0de6a7edec5435	121055	mods/sparsestructures-forge-1.20.1-3.0.jar
+file	managed	6eece0df9c927bddee3bd373fe90a2bbcba7157e9408ee0f94d13e04dc638395	31691008	mods/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar
+file	managed	bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3	206584	mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar
+file	managed	9ed8ada1283ed7a793a70cc1b51c4a340f367ce84707e1a7b8cf21ee3d288d77	57465167	mods/tacz-1.20.1-1.1.8-hotfix.jar
+file	managed	a789d1519fd4033334d0e217b252c557095b8007922247bfe53ee9db4f76a63d	5343749	mods/tfmg-1.0.2f.jar
+file	managed	5fec51f4687d3ffaf824df2ab2c5f8eaad1be30f53b25993afe8f1db1a950900	81047	mods/tinymobfarm-1.4.1-1.20.1-forge.jar
+file	managed	04e7b39179e95f1a69107a07a63d7bce52243149edffa3b03cfe6eb23503579e	1413418	mods/travelersbackpack-forge-1.20.1-9.1.56.jar
+file	managed	878a0fb5a2057de530698fd63091b9fa1c23af0139054af108e9d566840a0fa9	27486118	mods/traveloptics-6.3.0-1.20.1.jar
+file	managed	3bf63a4ed7cb9a75727da2301fe0642ce74c9e0384cdb79e9b3570d3ab320aaa	5525883	mods/tru.e-ending-v1.1.0c.jar
+file	managed	30c909bee218458756ec8fe54d66eae2862d2735900b9d10c3c443f973f098ce	204649	mods/uilib-0.3.6-forge.jar
+file	managed	06efde7744e2ad8a1524e5190d46c02c1d050f9be4ec9608479dfc9a6111c73c	20043444	mods/unusualend-2.3.1.2.jar
+file	managed	5a644f3aadbc24908d11dce61f40a6dc8ef8ff9270e55753b1302992a717eb5c	1270628	mods/variantsandventures-forge-1.0.26+mc1.20.1.jar
+file	managed	df32efdf0b1b963a04fd4503997049d0b2d645099d0156f7dfd65d0c61266cde	46917	mods/veinminer-1.1.0.jar
+file	managed	c9628f1770f22e4c56a0d2d51c1a4171249596410c0fec0e8997ae25760ca528	4926468	mods/voicechat-forge-1.20.1-2.6.23.jar
+file	managed	19a7291187e1074dac0ade56f95cdb84936e8563c55afdc0b86c90ea7cd80a9e	435496	mods/watut-forge-1.20.1-1.2.3.jar
+file	managed	f03014fabf2186a1dff69bbe2473b3373ab9d6c7d2ea8aa18e46b4f5c7dbacb2	533739	mods/waystones-forge-1.20.1-14.1.20.jar
+file	managed	da63af14bd71b0be80376ed5ccc4e3669214e0e8baa5c7c1bbfa83d567513e9a	283977	mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar
+file	managed	bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f	1105891	mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+file	managed	08c09fb0b4e423657b42d37f6d604716ae9664f2cf4707bb83c1eb9a40da2a17	378268	resourcepacks/Ender_Dragon_Reborn-1.0-1.21.2+.zip
+file	managed	bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965	546928	shaderpacks/ComplementaryUnbound_r5.8.1.zip
+file	managed	70b6d8127a6733f0a19bd1d351b92709d6ee7496967ff49c4793d2c28c7a6c58	3184524	shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip
+file	managed	e52ddb8b6412951f9b79c9ed9a7521a849cef4192f19af4843a3392cdbcfc420	8748121	tacz/Applied Armorer-v1.1.4.1-for114+.zip
+file	managed	42bf9b52c340693c3f961b1385880e9938b5d032bd3b31eec539539b88204c7a	2211468	tacz/Ars Armorer_v1.0.1_for117.zip
+file	managed	479f0ac05833ccec554efa1b22e6f71553c7ebe7f381310c28467a399c98b0ba	7107566	tacz/Create Armorer-v1.2.0.1-for117.zip
+file	managed	2117e01b1691346761606b3d3bdea74560079e942a3a5dfff3a7b1c01d5affcf	10217419	tacz/Cyber Armorer-1.1.5_for114.zip
+file	managed	0b490c48b3ce16c2dc15f8822fd488901bd04f46c7d647d91cffca758ec71bb3	15677704	tacz/[Tacz1.1.5+] EOS_Dawn Goddess Lab ver1.1.1-hotfix1.zip
+file	local	7fc442717bf1602ba662863e16f24a7336288ce824e8f395f01af59f5ba470ec	20907977	tacz/[Tacz1.1.5+]TRIS-dyna GunsPack ver1.1.5.zip.zip
+file	managed	62bd181c86c984a4d6f603f76c778b157483ec030c5e62d66e2a6be6d9fab0ec	2143549	tacz/cataclysm_guns_1.0.zip
+file	local	d530434ee3c12b927243eb86b2ba2866b6a2b3bc67c4dcfb58e619d04aeea8e4	57052	tacz/immersive_ballistic/assets/tacztweaks/sounds.json
+file	local	c0733a3d80d9405b0b327b8dc0b22aa16006dcabd14c0cf7b59b8f1daf0834e2	6120	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/cloth/hit01.ogg
+file	local	b768b470c0e691d095bebf75202d6f9d19917cf88139251aaf4142ac58b22681	5843	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/cloth/hit02.ogg
+file	local	0629ded5e020da7a3a9b0cfc7f486fd9302218da8a5040d3b8bbee5410662491	7020	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/cloth/hit03.ogg
+file	local	10fa66064f03b716187c955bf0005dddbc046c4cabad6af65745dc2189cf79e0	25472	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/break01.ogg
+file	local	e5a827743a80d13992f480291cd066af58b7459d2bdf4e882fb33273a99a0780	30285	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/break02.ogg
+file	local	11bb390284beaeeb3b755c56eb9bd3391d858934357942428c8483b3aceaf276	26707	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/break03.ogg
+file	local	93c4b1c7126d54e2cdb2636b394e917bfe7c94dc8ea343aae2d2db2ac47dcb1f	24793	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/break04.ogg
+file	local	75980c6b0a1999bbe76cba0689f6cfb4a15a1dd4f6a6a81ccb60bb024e988830	25216	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/break05.ogg
+file	local	5eecce15b65f5528abd53b47e45f99350b1406ccace41c88582802f65d829705	14682	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/hit01.ogg
+file	local	f14b159bdbcda590dc4252bf74c60d2c3a28be6b1cf26cf2c8b6e34debbd45ec	16827	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/hit02.ogg
+file	local	c44f6d6fc0de0a2017c6e8eb32f0f15e22da60d57250ec0db7f07fe4f3cbd0d8	15658	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/hit03.ogg
+file	local	93ef87916a017440e94eefc776ae73dd10740b2b37e249f7fde978d981b5b20f	16636	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/hit04.ogg
+file	local	253f0f81a596773c9f39a2d36158e9c0a36270c5f54bb80cc272c4976aff62ac	16331	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/hit05.ogg
+file	local	36ec2a1b2d72960b0d21cd473532f367d3271e5a72a8a0117863d65a379cda45	17786	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/impact01.ogg
+file	local	c3f3ad1ae0c099c67fd2f65265b31bfd3729f952319f40ba53276d6ab43d386e	14880	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/impact02.ogg
+file	local	725e7718ece2b7d3a3e9798e38f9ffbcad31ef8bb24750ccf924b8272510c6d4	20246	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/impact03.ogg
+file	local	5b4e8440cf82a028b82d9fa47e83d0160aeb3520f34f22cb7130897d25b50622	8397	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/impact04.ogg
+file	local	96f9cc3e8c0f04f8449ac8f2985ae88518a80a960a5e505f222ab6d4611f6d04	11496	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/concrete/impact05.ogg
+file	local	04b0ab0802d7139d60d453fbf193577c60b9bc467899210c39889f225afa05cc	23637	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/debris01.ogg
+file	local	3c415ac029417f09f57b548f40e6918f98ef0d79949fbb9684fe19de1cf98221	26497	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/debris02.ogg
+file	local	8594a5f81e6a3ada3268d81a123f715a73cb88e9a7018f623a254af55969d385	24688	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/debris03.ogg
+file	local	c06740e8712d0eb127d275b2b8ee13285d4039528b52a2050867cdae107fac99	27977	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/debris04.ogg
+file	local	91d3949bea8ec7c74af92cf2845cfb402327132994245aa2a4cc00e380e4ec30	14583	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit01.ogg
+file	local	22591d6b466f5a8d097bddf7d90b7659bfba7ab94a12eca33c7dd553a55c3eb8	15669	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit02.ogg
+file	local	0608b3e0985d42273ee9b38003519859704f45eefbf83bb55cabf4481ce68b12	21071	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit03.ogg
+file	local	2a3de5a6a90c14655ecad08c9d52e59806173cfddf8c0ff615bd10094657894e	14587	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit04.ogg
+file	local	a62bfe8950341d51ccb759c2b1d90fec713682bb1a6aec897a767e0913843490	15168	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit05.ogg
+file	local	ee343d0f26bc8c0d05d96c2b4960b27653b2e3430d184d0c46f3c74939e85ab0	15640	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit06.ogg
+file	local	ef25a6edc74341b942c12dac4f128b1f89ad56ea7e7fd1aefe5d31e5d30afdb6	15645	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/dirt/hit07.ogg
+file	local	7468999412625ed68c10ee98fcb65d24ffa9acc0ba76a51b87c956286ed4697c	6514	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit01.ogg
+file	local	e038b4cd802a61b52043d373a6d43c201bb4d067e104d5989b0ab57975bf22ff	6279	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit02.ogg
+file	local	1c5804dde0eaa95eec17f75c24472084d80bd716c9e073e1cd7c4220bef430e5	6667	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit03.ogg
+file	local	370d68c0f3c69da0d70e855044bd6fb4aba69e75eab80876361d8313af928b3a	6628	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit04.ogg
+file	local	c744af99831b8eea54714b1fecea7cacc43e675bb80b27dfcf2111e01f74ffbe	6370	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit05.ogg
+file	local	e3762c43762f34ca15689316e1eab60d7ff082c2f4a74f662ad5cc5b1ff087b1	6241	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit06.ogg
+file	local	c2298fcef9e4d2352219e6a45a15474966b11394a36b896b483d0474901ea2f4	6618	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit07.ogg
+file	local	35208cece4f31b32dd081d34a3acace54d9c97d63568f1a1616149d7f780edcf	6321	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit08.ogg
+file	local	33670b145cd6007aa088bd1b14cb2c0600fb301de2317816291a8280b7982675	6409	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit09.ogg
+file	local	11d702dde5b8fda5e4e715e1289a6db0cd706f3f1c4f0d4e76863aa4f43d76c4	6151	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit10.ogg
+file	local	ead08bfc5caa4dae31e3972d97503eea28e2e2eaba348c94d1a494dd0a660128	6518	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit11.ogg
+file	local	7415a36f60e29a4c8bff322ec980ee723bcc64a269d954e459ff50d25189f51d	6781	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fabric/hit12.ogg
+file	local	e75b31991d11daaaa716dcf1370b5e30ae4cea93f89dbd1e1155b9cba670dbff	7719	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/foliage/impact01.ogg
+file	local	11c452e34bab7dc9ef4ecfdda66d7e83430a7f0dbaa219f974fb6dd6f7d60c62	8526	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/foliage/impact02.ogg
+file	local	c802042becddd1e214246751454049ca8d3fbec1c8df3077ef6ecc14e16c4131	7406	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/foliage/impact03.ogg
+file	local	38236d93614dd88b39b61679c484a3cd98170a11a4b2f754cf2373362a7715aa	8171	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/foliage/impact04.ogg
+file	local	29078485d00a23c9917b9accd94aff7f67c4195feed05a9ae5aaa10ccd79f6ac	9863	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fragile/hit01.ogg
+file	local	e0a8b6aaea194597bd0f84f25b305e7ae86fdbb35d30f18953d881ba07964d2d	12026	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fragile/hit02.ogg
+file	local	313d02cc774ca453010d0097f1fd85ecc84d4cf448dfbce23bdcc5d3c92cb899	12205	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fragile/hit03.ogg
+file	local	006ed5d94e55bb6c57825923a9dae1383c0260f5f60fe0b4dee9e06d6f11269f	11008	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fragile/hit04.ogg
+file	local	4db6caa87b0c21ac49cab8707fa617bc14645d9fa7d17615b33e0daeccb1966a	7585	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/fragile/hit05.ogg
+file	local	b0d5e3eb6895f47cf1eeeb06520a7872f96f2c5e1d62a2898bddeb411f5015a9	11081	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/break01.ogg
+file	local	f71e97e3c5d1418787ac234ba3667dd53c6e8c400c6afa3cb5f40d90b4fa0049	16002	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/break02.ogg
+file	local	407c1d77ebdd4a31e0cb2a007cd06cbf1e7a3fe0bd6ab12f2b3ff78bacfb4e29	16606	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/break03.ogg
+file	local	53af660691b21742dba27909070c928bf5e427e6d8f172016d6dfdc0c9aa16ae	15944	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/break04.ogg
+file	local	d79fd8249364f218a30955c90f307898308f06d20b0c73db86d94783b6d88224	16534	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris01.ogg
+file	local	b351479f15f4bda79fd50d77923d54f2d697f8bcb4061124a36d22e7a137170e	10267	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris02.ogg
+file	local	4f1599648efe2a9fec47bb94fd2e55bd1c03f04a7788c8585015a5bd8cf61512	11298	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris03.ogg
+file	local	87eecb70e36858574fac932a91424474a9f2b8368963cc40953b0bdf5353c68b	10467	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris04.ogg
+file	local	1f6bc09131e6fdafc0074523d0ca07a34dae93d3eeca60a6dedbab7f87baa018	18951	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris05.ogg
+file	local	7995a768ebf99745c83e9897c900de6af43ed32370347cb3ef17d6d00d240a3f	10839	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/debris06.ogg
+file	local	b7befc0d0ac94908422cd9cfa18bfe9f54f300e200dd2b9dec8ffe77aeceb23b	9751	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/impact01.ogg
+file	local	65cea30858c5b9a192af8d6b2ac2ba8a561d7f88dd8a7fff4f29ce8f9b89fa1b	11388	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/impact02.ogg
+file	local	e5d489adaf3f79f765c8872794e062d8a7252da69886395b7eb40f79f0affd17	11126	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/impact03.ogg
+file	local	3dc54fa4f2129aa3efb8e20483a85846e96b6c0a5c0d6a6e1b7b0874a3dfecb7	8285	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/glass/impact04.ogg
+file	local	211c0789ff6b1b06baaf50d903bac15e0955bd460f981c645b166e9267f5b54b	47558	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/debris01.ogg
+file	local	41208efd6202d2c808cec45caf2183e4ffabbe690a908233a92d5328c3a4995a	48545	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/debris02.ogg
+file	local	920810ba39250fc7b3ff148855c9fd247c57729d06228361677eecaeaf6fd56c	49382	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/debris03.ogg
+file	local	d29ee6c241c25901c7e91a8ec6598db34d56e6ef2035d87225a5476bc0bb655a	37505	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/debris04.ogg
+file	local	c53df93429c31e86a70e10701dc1e038bed786fb5f4a83335dccc5e3d4189440	9812	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/hit01.ogg
+file	local	896655c41bf7a00b4722e64780fc13c56de6d16ad5669e1755e9c9f1e196dc06	8746	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/hit02.ogg
+file	local	6b42046a1cd71887562acc33464ca953dee85a5ba3b46156cf2f8638ef9be9bb	10266	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/hit03.ogg
+file	local	50cc8d2a2e2636e11786e143eacb5c79e6ab50cca85571d51ecd715e58a4b117	9232	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/hit04.ogg
+file	local	7aeb04485e066f1443f3ea3227306bea388ead0eaa5f1d5baf6fd1cbeda609e1	9036	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/grass/hit05.ogg
+file	local	402ab02702d849053c4496c08fba42d27c739bd5a0e1e5b339f14353ad6bdf34	15490	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit01.ogg
+file	local	37f0f22b4322e2003f53ad003a1a5d95c5992e3da2334add8fbdb19b2e17e391	15694	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit02.ogg
+file	local	e5409d3303cc7a976453ae92558e7d3262a1dffb4c028c7fef3de377a2031dab	16923	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit03.ogg
+file	local	ee63b5479e1c2823cdddbee0cdba3e3b6d569461da6d0b5bb7c56d68233d9c71	15360	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit04.ogg
+file	local	940148be6935033b65b52fb8041d7433dbe3f97a8984db9bb9594c5e153fd5e4	15219	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit05.ogg
+file	local	53ee31c6bcc5c4425c427ef2b86746941da1547bb7def65bdc7c913dddc9f0e7	16371	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/gravel/hit06.ogg
+file	local	f6f1e8ef47f4736adbb65ca6d4e3685b45aa7c9c58b4d31a98d1026de2a31bbe	7898	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/ice/impact01.ogg
+file	local	27da4a2b6af0759fe592058e29e84639130062cf4de5ecc6fc4c753419287c9f	9537	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/ice/impact02.ogg
+file	local	ed86ed1c5636d460def1eb69e3ad9d13f2a2f90b576f9dceba1ab1efe3da4765	7831	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/ice/impact03.ogg
+file	local	2b6fbb25419625f90875e411116c0934b24ee1dbe615c94f1e25d9642de10f6a	6413	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/ice/impact04.ogg
+file	local	f0a058e6fe697a06c00b5140ef6bd87862e24874f4570d4113b425baff5d77ff	17923	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/break01.ogg
+file	local	1947e32268a5fedb0b43007949a544d47033ae0349bc0094574e0669c0c9a96e	19047	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/break02.ogg
+file	local	0304558ede5e9d3b5ca125a6a7e9d0ec0250e543d29718946d4d08196a73a354	15423	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/break03.ogg
+file	local	6900547b4f66f48cd96ac84b359eae80343976f1428088c8451482b090aed9ee	17110	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/break04.ogg
+file	local	d8b297117c487115e9528b5d2ea483ac1c2629c93011ee4698b49795599c3443	16447	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/break05.ogg
+file	local	a2cf5968671390cebdb1545d37656ef31eb33d8f2cb2599d27ec44a3ee2f16b7	16214	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris01.ogg
+file	local	144a6de90f6c192090f7c05ae5fd9ed0876c97451b19d5448735f5664cfcba73	13845	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris02.ogg
+file	local	03c8d303ef7fde1433824a1e46d48bdaee00548c6a6d6f034812136c25fa47a8	12681	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris03.ogg
+file	local	ea2a8efc035a8ed0ca4b10843ab9846a3465dc3bbcf2e70334ac08437b682f50	13827	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris04.ogg
+file	local	f70dd5381dc4cac194f753d710fde9bc74168480a358b9f58a3f60e38ab06d61	14869	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris05.ogg
+file	local	cbd2a3d3b934e610da061940cc9cd40e2af2af80e3ec693396d401e1131e47c6	12202	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris06.ogg
+file	local	6ceee3b1893d161d28939107982749294644ba496c27640113d331edb60fb35d	13800	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/debris07.ogg
+file	local	354c8fb5271c2877f1dfef196398a27ec4a5dd03dd6ebb38bb0d8983e25656b0	8693	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit01.ogg
+file	local	50dddd25e1da3a6292b8321dda1dce25d641a77e75dd68f6bdff0d53b082595b	13504	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit02.ogg
+file	local	4d0de9ac2a4c6b22e8bca9c80c49951d535bd6779694a6fafb9732c6389065fd	10629	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit03.ogg
+file	local	7f36710c4f030a2506069ebf656075ba65bd771b82a01700d1de8c250a2d700b	7617	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit04.ogg
+file	local	31b63cba64f42387292bc20e647997c9142ed4ca0c6efb500f8ae26f92d989dc	7394	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit05.ogg
+file	local	c764e6a6a6542c95826812029b9693ddcee2f096c4ac65648b7f7d565a2664c0	16018	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit06.ogg
+file	local	c3cfeb62d58cee2d536856d5a73720c5d585111c99dc6c7c4bfcff352cccb207	14086	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit07.ogg
+file	local	58b06e05c6eeeeddb8c4511a148288ae4325a9567d0dad022d939816ce23d746	14539	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/hit08.ogg
+file	local	fbff33eb031e3f5899fcd6bb78b62f72d37294bdf7099ce150a28a2d7e7ec9f3	13769	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit01.ogg
+file	local	ae76495becd65f08bcb0073812a118a32192043272d32025178ab5cffd5a470d	8915	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit02.ogg
+file	local	a49ac3c71cdc296c6e91f34c045bb08b4eb07e37a7e01885a7e80a99acadcc16	9668	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit03.ogg
+file	local	870367e6980ba10fc560ca31d3c88e58066532fee88fbac0c93e52e32fb909ff	15240	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit04.ogg
+file	local	e3619872434da1ed3efbd8996dad60cbc0f04d07d8dd995f0f7d0e0d7c4cd42e	15121	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit05.ogg
+file	local	ab7d258271cdacd98f3620708ce5f27cf618009a1792ab3698cbd18cc27699e4	10810	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal/superhit06.ogg
+file	local	0862bcfcd0139b3e621f2eef832455d0f41ae3f2284368f1b9ab1f74350e2b2f	6974	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit01.ogg
+file	local	1c7123db6121e33be35b13225a3da7427bd589e16242220ae1a022e40b07e159	8985	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit02.ogg
+file	local	0c40d16a8ed2970949fe8a325a2100ec072b24498c237dc8804c31f2c845bf2a	8591	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit03.ogg
+file	local	8a9cc96b89f69171afb046e5f1df1372c791902cc24a587b7694911c269c7000	10459	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit04.ogg
+file	local	46ddaa9eb1b19535008d7a95f77fbd5718fe6311994e17221a33f63719c85309	7619	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit05.ogg
+file	local	b93de89ade263c1b6a1b0b70c3fe7edadd45172de36de2aae143fe86e3a2b5ca	7813	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit06.ogg
+file	local	68101707ec9d03657b662a5ba51eea8778762bac1175051f7eefd0c3e5d06fd2	8335	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/metal_thick/hit07.ogg
+file	local	45f68a8fec3931a2b60de416c93d4c883362396b429b0913350cad82baef807f	10535	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/mud/impact01.ogg
+file	local	04fe5aadabc65da8ac4e8fe9518fb66d969d240e220b16e81e145cdaba637ce5	11037	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/mud/impact02.ogg
+file	local	09dea9e3884dd9134efa23090c4c3f8d23d5004377b0c30e258fe1e2e5bbb31d	13942	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/mud/impact03.ogg
+file	local	8c57b81e4063d061b8992f5212ba68f3be4054193fc062a2020a5dd293204a16	9925	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/mud/impact04.ogg
+file	local	854eed6b356c1e0f6a3872ae02770e96d19e6a5a8e7bd1357f17566a942b76f1	34579	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/break01.ogg
+file	local	5d038d9562bf01f80d6352ef69f3359c9157d8395a7dd17ba4ed5654c1e8be99	31235	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/break02.ogg
+file	local	c57fc05a7daa6a241ff6c3ced734d170583086d2384fe6b8b1a37ffda72ef1cf	26961	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/break03.ogg
+file	local	ad5baa85cccb3f6c7ecac29d0d18294e43bf190ec2fde9159bc4974f339d9759	31651	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/break04.ogg
+file	local	b54feb3ce7ce2529beef1ca95be0bfb95a48b66f631fd82fab14fa05fd4ada4e	34380	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/break05.ogg
+file	local	a4c72aefffba47b9af5d037a741ed0579ce8699062b54a0e081e83b2481a8482	8603	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit01.ogg
+file	local	cbddd7633325a9ef432fa8280bb11dd2098f34f11ccee0e08f36d9937412ad1f	9385	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit02.ogg
+file	local	35f0f610d59a9de8fbf784eaf40ab8ba5334a8ffe0d0e54d2e2f11ad225e4e1d	11556	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit03.ogg
+file	local	d8e27314cbe58a67b4d5a3ce9f9cbc48dfd380f118a4eaab3a8e0242902fb6d3	8541	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit04.ogg
+file	local	d2e4c5b8063b46479425b4a06bd70580c15df0620bf976c86a34f84c970da26b	11444	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit05.ogg
+file	local	60e07cdc017ac5710fa38c399e0d240db25139b94cb31600b996bfa0b609b20c	11883	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit06.ogg
+file	local	48ed13aa41d4f7b00cf255aef84d7e50bccb5e4f7f2a2a763dcba5637d7e1d02	12658	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit07.ogg
+file	local	3ea309e6f4cc231acb6cd1453c7fb3795a6123b5d41f249f53e685be749b22e4	15320	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit08.ogg
+file	local	348f59325fdec4d4e662197f9c0f3f67bbaef144cd050cfd68fef172d60791f3	12625	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit09.ogg
+file	local	04757a37950a3325e0c97c49176417e25fbd094e67bdc275c57f19f0deabf601	13511	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/sand/hit10.ogg
+file	local	3103987290b6c913a2dda55620e925727a0ce25dbb61e963f89cc904add1619f	13842	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit01.ogg
+file	local	72ae8ef19838d036aee34dbd0e2b467e4efba933e7f6a20bdc678d53aa10428a	9826	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit02.ogg
+file	local	41217aa360f08ad73dcc738742ab998d5af3e7436957ebb87da912f2527a3055	13445	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit03.ogg
+file	local	f87e78ba586cdf0bb190dd7961b361a409579dfd447d149102ab84e605fcf31e	15241	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit04.ogg
+file	local	b51f0f06861067d76f7008ec068bac706f9b0ee0707533688e6fdab1ef3caa27	14362	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit05.ogg
+file	local	115e7dda06cf8034f46f291693c25de9f38b42627ff30186185be8d936d73c21	16386	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit06.ogg
+file	local	d30c92f3e7ec8490fbfbcde04a9fcdb9ad6cc25289721fb7a8ac5563c3aa4c8a	15335	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit07.ogg
+file	local	474ee796d9dd272782f8fdcce832318fc8fbf2efd48089c69af0afbd1615ad76	8814	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/snow/hit08.ogg
+file	local	bcf91b532eb5e421ce6045b272d3a36b2826a70a0335ec04b3eaf1b3575cb662	34443	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/break01.ogg
+file	local	701d91e1a1a3237f9ec380973cc132cfb10d88b597eb49f71c5a771b0d7db2d1	42047	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/break02.ogg
+file	local	5e2a967101777779fb6e861c035275a24a1dc7bf2b7e82d466f56deb0e27c1ee	38660	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/break03.ogg
+file	local	686d757c71fe5f9f8bfcf2a358a6c11a375c59c4df979a2c549cd931e4f7e151	37056	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/break04.ogg
+file	local	cb49a0d706680100bf246ef47ac44bee55a8e7694b6fff1474efcf19f24786e6	35787	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/break05.ogg
+file	local	59169befe728cdc8009a9c59016b7f84180053fac1a6c595cc3f4c27d95c9ac1	22352	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit01.ogg
+file	local	eb926bd03b2f4f5656f34e0a33cc85bf508ad9f6350b50667cf9ea9073915631	19956	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit02.ogg
+file	local	2f74a4cb5890e0634ca3c15f4a2e76713110f628fb9d232fdd8285737f5127c9	19637	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit03.ogg
+file	local	ecba629ae1abb4263e5a42a1b1fc7484b255c70357f3ddec62a4553d753daa49	15654	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit04.ogg
+file	local	736f0dba453e662ab41736d96ef2b317e0c3ec8d5eb3a1ffef967679014c438c	21558	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit05.ogg
+file	local	c2a9b412f4daf2fc378a66d2f369bf0a166476350ac7253f0b5ad5f5f2b71a92	16919	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit06.ogg
+file	local	789bd69dd5b23e28e8e1b3eecd4a655a3a6d243c0d6c1a9b137aaf19fd81546b	11871	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit07.ogg
+file	local	3053daafa7c886c1618cf1e19f9a3afa627e764e08c39d54a6e60e4511367247	16621	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit08.ogg
+file	local	2ed72a7b22b0a6ee2c3e9299aad1cee6b270d19340a9e97d08cd5362f758fe0d	17501	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit09.ogg
+file	local	3d0a5a07d1fbfc73f1b049bfad859e354de2ff22a1325defb68e8edb495a9201	14790	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit10.ogg
+file	local	993e7a32f3cfb18175ac7f956c5d40c40a3f607c6eb641e71a7ccfb136224a74	16015	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/stone/hit11.ogg
+file	local	4f5b6ed968469fbe26212eec46058dcb3410d85f78d95ca96370a4989cefaee6	29126	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break01.ogg
+file	local	b3117bf9c402f0990c605e3a86145aac86661c31d83ea21ae46d1b66bc4c86b9	24039	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break02.ogg
+file	local	24bec9b1b08a839d10f3cb2d03a264685c600dd90c7c435ff92c6b4662909b37	21512	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break03.ogg
+file	local	a935aea11feb8da286c902454b015cf96af0c012d02bb0e0680fae00dfcfbc0e	25793	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break04.ogg
+file	local	52010314c2def92c212a402e89443b71abc2a0766df8e25d7c134f7cc6ad4a4d	22355	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break05.ogg
+file	local	59230126ec7e1439658cfc115b6cd869631b5f87729eb606107166e938666afb	15625	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break06.ogg
+file	local	81b5551c2b7051bf77c854653712cc0651fa3aa50acd01436fee9f393810e344	12912	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break07.ogg
+file	local	91844cb0dd1be477f61579c6017c842d7bf16b31af745d0d55485495ae566e2a	15313	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break08.ogg
+file	local	633deb2551082dd62d6a457de8f2ccaff5e70a94694f120631658c176623bfc9	16314	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/break09.ogg
+file	local	0713c09fd4df92389faaaf2dbb903c5f455a2104e1a61d9bff56791241a7a845	14207	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris01.ogg
+file	local	7b86967843d274f566b5bd62f906bc8226896874107f87ca584af56444235705	19318	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris02.ogg
+file	local	cd4681fe2dad80d72d0c91b0d7cf0b2efad9e0c7ec92a9fef39ebd11f5bdfc16	19483	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris03.ogg
+file	local	b5a07b0375a017a19342c744a0e5018768f2d9b906cf95add607cf7b0ada4883	10523	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris04.ogg
+file	local	138f115777b050bbbc9a316b0fdd5f0bea8bcce6a1fd4d51ad4d8d18be7282a7	13116	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris05.ogg
+file	local	e3bfd0cbb04c4b06e5c9cd9536c0906c017968d96f9e53ee332180b4804ab547	17294	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris06.ogg
+file	local	70b35b95c6fb70ea1cc0922db0ff535afd893fd6cc1023e18abe7a942dd5b52d	10885	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/debris07.ogg
+file	local	1de3ca6e20eeba60bf530f9fc3b977359c0838eebc1ca7026ad45340e8373b53	10460	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit01.ogg
+file	local	a6b3c30453aec91a573716455add8b72624c8e665e6d9c04bc6a18f9c40139b8	8764	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit02.ogg
+file	local	6d7de3e928426f11c3db6ced3b66e6b2f947232446b958dd1d43000fdb198bf9	10844	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit03.ogg
+file	local	f835c534b3f1aa45e0598f43df132fba22f91e405b950fbd69231c545be04187	10284	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit04.ogg
+file	local	3f7a504f1ea2137562573fc44e4edc55b4ed61158faec5c2c3a78bf81a5d0a5e	11282	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit05.ogg
+file	local	3a98260601d09929861b65cfa25b008d79df55a659759b4c31655a177640df70	9028	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit06.ogg
+file	local	911f9c23a3f8250b0784cf5a0e7d045d1a8d9f6c504ca6a86f83c33510bad29d	13811	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit07.ogg
+file	local	7156e2d499b656f231573f4196b0b17683bc33d2d52eed5ab4bc21f5f0eeccd1	12770	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit08.ogg
+file	local	e6dd4998f23755e4b1fddd16bcfc2e310641dfb12660e8f621d96cb4932ac047	9835	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood/hit09.ogg
+file	local	b49dbd7164f201326d9a531b662040b1821a78a5d0be5273637204495a724d16	10547	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris01.ogg
+file	local	f435fc9c38d38f265b3ecc2f8fdf417b9a75e212781c9cd68e3eeefdb7944c0b	11647	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris02.ogg
+file	local	6aac7687b09732e23b08329bf87b464e80c0009f1caaaacef9f29ef6b28347ff	11532	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris03.ogg
+file	local	32a8a259db6d2aeb621a573b5a307f83f6864afd2af7eb8d72a2f47760834b41	12314	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris04.ogg
+file	local	46b239df15203f899ce5c3a89f02da9e2a593fe38ac2b6cee5f2df20bc37d33d	9133	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris05.ogg
+file	local	55853b8e4e359d88afdc7aad72ed2ca4da10f30a51e5ded40c98c42257adac23	9931	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris06.ogg
+file	local	d396fdce098d08a182c4e9519ed4c8728efb83d56ebfae92b303f421fdd289f9	12209	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/debris07.ogg
+file	local	f5858ac6e9f99577705d783f310211bc694a353aace729c996b39a08127ad878	10946	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/hit01.ogg
+file	local	af98e2a2ce59ae13e6d2c729b84893a8a0c4703cbd233177b715b9399827fdbb	16849	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/hit02.ogg
+file	local	a9d51011f3e3ea76f71488bc82827a8471505c37f10cb1beb0046db2c2ead69c	8732	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/hit03.ogg
+file	local	d595f3b42981a923216cb6d38be902b5846f731f431b7d5cc2db4d0212658d3f	8660	tacz/immersive_ballistic/assets/tacztweaks/sounds/blocks/wood_log/hit04.ogg
+file	local	a26a362aa9ab9d59741dca5b2e80aebe9a26d81624bbfbbc7363ae29d4e83817	11016	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/01.ogg
+file	local	5c2b1471be8c675079d3d43cd11bd660566c596900338b6c5c3d1c0ca3ef9e39	10021	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/02.ogg
+file	local	2ee73c05f733b87a8571c725ff3b95f51b1d6a002a80674c66b0e8d07a8d266e	8983	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/03.ogg
+file	local	d39b5e6c07e94572d5691f7b5ba080e9d1f980f2f7ae388c87cd3757789f0ecc	9283	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/04.ogg
+file	local	b540afb38c66418c71492fd23a0dfc14ffe68ab05132a21aaee0ba75dc887196	9184	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/05.ogg
+file	local	d81bc42fae3e8f583cd0d433f57971a260e6d0b3b2d438dd8a14b427cd423c12	10832	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/06.ogg
+file	local	1a54f5f5208722f229ca1bbc6909d7580cda021c645984b30fce3177bf53f6a5	9209	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/07.ogg
+file	local	8e2c0fdf488a322874fa91d54d39141bca22273182f416ccf02b7f3483317d69	10697	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/08.ogg
+file	local	dcaf7b4bc996f77772a10e562ba03e161c1e03352213798d25be16a69682ae9e	13472	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/09.ogg
+file	local	9f4b7bcabe35f503f98be68693d3474431113432448dfa550f32c7dc8f808683	13979	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/50bmg/10.ogg
+file	local	1600dddab0df1ef746a763bc7c190d29e464295b96ff27de8c63dbdac07b8ec0	6910	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/01.ogg
+file	local	82f0f9898e029cd1f56b5e41dc3206d3e7589559d119438ea7b283ca7e754d58	5350	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/02.ogg
+file	local	a7eabd3a627bcdfdd007b2e1b5e16ddf289bf4480cff82399f84d1e59c1f07c6	5406	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/03.ogg
+file	local	f4dd25ee7c57610b83dc7a33efdce450c41d6c5fb5e70e2fc4aed59063960205	5569	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/04.ogg
+file	local	3cd4d8e9224d3ec426c11b0558dffc808d72ff5f20e096436aa4c73b4adcdd92	5504	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/05.ogg
+file	local	450461320e789b6952e8d9051caf5ba26410ecb682bd5d413ccd5336c6a1339e	5638	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/06.ogg
+file	local	5dbe607f0ebf968edd02fab1e87d9b18f0324f6ebebd8c9e8f0716dfc6c37d62	6111	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/07.ogg
+file	local	88bcf278bf3c7e282c92e42805ae341b960f79863349d1a45bcbfcedc4f12f58	6513	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/08.ogg
+file	local	de2a14d74b0688211574fa5e36d29b230c992218370c72ebfffb14bddda40992	4840	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/09.ogg
+file	local	40284b7487da9be05ff70d306acfa4eaa4fa5f532f7befec8ed63a11d8bd90c1	6101	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/pistol/10.ogg
+file	local	22776dbde00d30e8dae2632dbb33cf0eee3fc44e9d27b2cfd7d890f6c1ad89dc	6423	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/01.ogg
+file	local	cab007b6ff717ed0c25563e758e30038efe259343fa4c50563670b60bcf1d924	6996	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/02.ogg
+file	local	69db16dd00ce9c60abc4cdb651bbd7566deb7c6672e69cd74b5c79ba5d87675e	6704	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/03.ogg
+file	local	27d6995565e7239cd7d312bf60343e823e74e222192e903e44cbba1792744411	6504	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/04.ogg
+file	local	1854149f0fc69746f28905413c5f9cd7bdf9b8624d4a00a8f5c63a7887314567	6538	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/05.ogg
+file	local	a4fbe701a34431229174aa2d7eae84bc913cf93cae0e693f6bfce1fc100ebcac	4840	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/06.ogg
+file	local	09292efe968d1b266431a1e74703540e35bbdfff622a8245c399889a7e3ee703	6022	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/07.ogg
+file	local	b18b2729bf39c484bc4fef0b993c835673358d4e75d2906b15d013dee8cfeba8	7539	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/08.ogg
+file	local	2fd0a56ed69cea195660249d831739e4da579fd75923f3d4ff345f2a62075e07	6818	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/09.ogg
+file	local	0ec092479104c352c130cb86c1ef0c41d32770df31688ccf00711898b23bda2a	7894	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/10.ogg
+file	local	0157b5bc8a420c090c3a7035c9c66a4694a441f764961bae07ad295b60ca363b	7185	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/11.ogg
+file	local	b97d1d2cb00c479b955fbdeb0c5052e075056c068bac7fe12ad398d3a71f3086	6247	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/12.ogg
+file	local	275b56504a0c94e805f547410aee2623045a25bd8256eb9f8c66b9e83c032731	7907	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rifle/13.ogg
+file	local	4fae2866b07b506fa77a9a958e89db1acc570cd97fcace9d48c5f7fe7a6c93da	17639	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/01.ogg
+file	local	f4ab398aa92a89d6f68ebe1e8028ee102cb6d870f69633edf711563bacc1c7b4	24157	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/02.ogg
+file	local	0bf58e9876c881bd3cc7116e0eb31539272df038659a8568933696b516f361a1	12801	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/03.ogg
+file	local	5509c81548689ba9a9cb4aafbf12b4b6640759cf01dbe113db59f30fc04f784d	12947	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/04.ogg
+file	local	68dcc5957e931308f426e0aa5552c150f1d81b8c040c249906b71e45faebe0a3	13314	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/05.ogg
+file	local	51049e389b10e097221bef987fe1a5f7fe6e3821c36f728255e9e52271afeb08	18826	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/rocket/06.ogg
+file	local	0360f90722ee3237810d72f983f87747e3d4dd87f2d12697542b20e083e72920	10641	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/01.ogg
+file	local	17cb194ed6632856f5e87b8aa312142b63cb85132442215599a5d1de2c47a0e7	9817	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/02.ogg
+file	local	a33eed89f049ed2b77390ab0ec52507cde14bd5db4d4912ade9275201c9566e7	6025	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/03.ogg
+file	local	0ea776c71aa1b6d95d27d842de625bd0eaeb6b143ea761a0d8687e15ec8c05b0	9590	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/04.ogg
+file	local	92a6a3e88aad40308f24248ca62b8f258d003c836603b4b102441dd81c4b0865	8448	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/05.ogg
+file	local	528da3b60b4653be69d45512330b40da62263b605785951778c36234f075e70a	6101	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/07.ogg
+file	local	8551e46e253a24b7fa3cf66f81fa206c01214297294266725e7fca0309cea084	7015	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/08.ogg
+file	local	b6432e382303cee182e68190fe74552952e0d431d64c3cd00849b99ada6d3a24	8731	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/09.ogg
+file	local	3de00cbdd9e7b2591509b2f8ab1d16dfe1b4ee1948d777d8a943ae5b0bb7483d	6513	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/flyby/sniper/10.ogg
+file	local	27068b6c88632f01304dc085a5eeda1fcab8dc61db6c6d9909519028083725ac	18780	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/50bmg/01.ogg
+file	local	bf8f824a251b889ae10609d9ca3e3388fd3a28c9dd8f6959f3d2cc884d49607f	20825	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/50bmg/02.ogg
+file	local	fbee00c0383637373c6d0a7b7d79cbd3dcbf77ba0a431b8d619fe48df65532da	20609	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/50bmg/03.ogg
+file	local	3c1132d3ed8ff5417ad2b28f3cc1eec0110d14b8874bee0b5ea2aedda93c974c	20205	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/50bmg/04.ogg
+file	local	28f37ecaf0e46af614c5be08bc6734a37226fb465ee52c7dad0e27a809c89de0	6239	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/rifle/01.ogg
+file	local	37bb4e67b8bbeb7fc3755a8567a542bce9fcd6edb96cfdeab23fdb3ebbd270fd	5919	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/rifle/02.ogg
+file	local	20b20b34db056b2b03a75ab2f6f38bc26d5828827cac9b7ea8401d077cc1b4e6	5931	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/rifle/03.ogg
+file	local	13f23892730584a33d265527d2802a953e7b38d1e73c68d3c9e9fe93dfbedefc	6174	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/rifle/04.ogg
+file	local	526c13aff1db8766530a7f2478e384ec84f602b50dbd61394c9585a1330edd35	14008	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/01.ogg
+file	local	3ef0367b5c8e4107e7f1d7b84eb87517648c38ded9e4234209485399de3f1277	16446	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/02.ogg
+file	local	34e377af2f71592acf371bdad4f09354066387b19c55bc3ba816bb750fa40473	11324	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/04.ogg
+file	local	399901b0954fa874c8ff9e9bd55a7ac0c5dcccff899306a77dc1073a9215267f	13103	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/05.ogg
+file	local	5cd80c5e6786fe51b75621b33e5e8ad427e28c71cdbf14860d26a656ba099324	13183	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/06.ogg
+file	local	c9c316bef275856d8acf7eef5de0edaca989a354c089acba54744160931ee0ad	11595	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/07.ogg
+file	local	4f0e6b6c8ed9a6fddbe14d9e09a49728f9321e8e0ec21fe7e5ef19d5e00fc259	16955	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/impact/sniper/08.ogg
+file	local	f9ce3476d62aac3e9eade5ba8f53d97aed0239b3d4245738be065fe1ec548c77	13100	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/01.ogg
+file	local	2e1a97f6dde4e2ded0963613391888dd8eef43b6b5f5d1367d4ae30b4cbf8e95	16618	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/02.ogg
+file	local	b6634de25d363224b2fb92210f295d5236dbc670c21c8ff1dece37a8652d484c	12509	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/03.ogg
+file	local	a246e86661598e5e6e9e469880f1789e039d877548993bb2c9ead8839e00665e	14217	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/04.ogg
+file	local	0bf621e237129cc2281539e3e2da82002faf7d2f66a3cb58e60d8a47546a72b6	14444	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/05.ogg
+file	local	6ac8d148dc41d8ea0924c2fe1b92b0c1d376c5f17ce6229eb922c2b3238308e4	16534	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/50bmg/06.ogg
+file	local	5ace5052624a7c8d7ad4bd4ae228925a40f54e977e6a7b66d8970dd11b4ac66a	5757	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/pistol/01.ogg
+file	local	fd1ca6c6017e22f04c0e50180e00ab7ecc9db5a22693b2dd0375b3cd639d4581	5469	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/pistol/02.ogg
+file	local	b4457b4147daefda479eb1591da8dc0efc4999d606167dcc298b9169973c6331	5449	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/pistol/03.ogg
+file	local	08639cba7090012f592cf502602a1b2680126066800a0357d2bd499d707dd8da	8358	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/01.ogg
+file	local	a277e07aa369f9d4e6c3592f133cd23c4534394973a3063fe5ccd946d7d74825	18685	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/02.ogg
+file	local	287faff982941a665d15ea991ef347d985ce915152eae4740bda2e22418b6de5	24327	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/03.ogg
+file	local	9c8832d13ecfb48c580a06dc950f8c4baa1b0e32a2b8a8cda324379a88352e2e	8362	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/04.ogg
+file	local	709060f4f279c4dd8c36d33ffae8e71badd17818e136f8f01e8347c056ea75aa	8974	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/05.ogg
+file	local	91d41ce00b4704790af534bdd2211d0e17cfa547f6cae4038b42d96ca15153cd	8481	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/06.ogg
+file	local	a59c07b54a7bf430a6d05b704e67c7557252989e4730b3b7c822bd65c2047fa5	7898	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/07.ogg
+file	local	8305089245f683010e0e7dcd49df7a0bc6d75981136005a0456bf36c5f3fc50e	21648	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/08.ogg
+file	local	1077025daec822ce9fd2ffab5fa344c5553422e650942409f5285f25296b3a18	18826	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/rifle/09.ogg
+file	local	0743fd8839882dbe024427f9678fbc780f3d25b87308b2f845a01421e697e4b6	13142	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/01.ogg
+file	local	4d3af5e1c976f804a17dea769a81da190ac69ca27ec5d4a822e0ca2d9df1f694	11890	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/02.ogg
+file	local	a39a842274217f4b728411d24216f0489da7b96c8681a2ff4d1dd6d25b8406cf	14728	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/03.ogg
+file	local	4e2cbbd78674f31b78e2c785586beec30a2b022bd4fe1d2b7a643a8fac6de7e7	15781	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/04.ogg
+file	local	08493734425dd4e89a8573535cbd133d90177331d0c749bca2bb0ead2e12a63d	17485	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/05.ogg
+file	local	232126ffb932ff0a0b2206b10e380d18384bf0a57556d4bf0b2c46981d841a59	19830	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/06.ogg
+file	local	78ebc15b2f474db1a77027e5c8046a933b16ba2d39277f1e9209dcabfdef7868	19274	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/07.ogg
+file	local	728498f6a80a91e516b9339dd7404e331c35818bdb9f7337d56673311af9c3e6	18681	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/08.ogg
+file	local	045bd25d85b3468ccd5d8e3b070d9f0bc486bd681a2bc4366dc822ebc931d601	24753	tacz/immersive_ballistic/assets/tacztweaks/sounds/bullets/ricochet/sniper/09.ogg
+file	local	31b8927d333c87cad94029fbc63234b611c3c215c38a3c1777839a7bc936c2ce	8687	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/pistol/impact01.ogg
+file	local	1cf838dffe5f072fe3777b2fb018ae2e7eb21bcc5aa805c8f8c063fd6000029b	11040	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/pistol/impact02.ogg
+file	local	f3ad2615bd9cd7701fb4a236206bf01789135a58dd2eab4f68e7d7c3e136f3c4	10552	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/pistol/impact03.ogg
+file	local	820e616fb2397de13b9241e7f8f55d88d5c9b659ba27f23aec10e20542e05b7e	10282	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/pistol/impact04.ogg
+file	local	f6845132596ceaecf308183df3808cf7750abe82d1af96c8c5ad4d24ac1f0063	18219	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/rifle/impact01.ogg
+file	local	2d32aa59731e856f4071990b8c17d97af22da29f2b3f82fd32d967052976e49c	18960	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/rifle/impact02.ogg
+file	local	bfc3668c41007b7554247b528bec31b017e308a2aeaf959edc5c83cd98f53d34	20010	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/rifle/impact03.ogg
+file	local	1aa57d832db936a1843a42bf0845e4f690130160f35e660678d4f61befd27df8	17012	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/rifle/impact04.ogg
+file	local	3468ad24f6efb3965d54ad43ce02b3889f1df4d33fbcbd4c869034d440a8d225	16831	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/sniper/impact01.ogg
+file	local	87ba7ede6d839994ed75c7ecd6b259ff36170ab5fae570e59330d73ee30ed081	19641	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/sniper/impact02.ogg
+file	local	54cdc12c286b0bf9e2782a94f01a7ff02de1c2adc1e38a8cd8aa19f401923f3a	19410	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/sniper/impact03.ogg
+file	local	f7d19dee42ec1bdbc6149e41449a5207c2f29eef133d18c6a7933d67ec64b6c3	16053	tacz/immersive_ballistic/assets/tacztweaks/sounds/fluids/water/sniper/impact04.ogg
+file	local	73597407dcd8dc02c90b4ffa44e42c480c8a7028e471289447fad724d3077207	5176	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact0.ogg
+file	local	371d5430adc379028d71ea0e230915734738f488bd7651fe01288d8377fde4bd	4993	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact1.ogg
+file	local	94243817510efdf109428637f231d8e2652e80444e00088fdddd6823a69cf1a9	5180	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact10.ogg
+file	local	79e4c283754e9221578d1d6e9dacc7fefed22f7c95152594e1ef567eaa9ae61c	5147	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact11.ogg
+file	local	a8e1e102045c0892f3b2c958a03f0d97fe14b01d6d3f11ffecf5078787983a26	5104	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact2.ogg
+file	local	d863d35bd8a4b5c31d7886173c7499b7d22d5f59ab4ff5bf99b9979e586d747c	5119	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact3.ogg
+file	local	493cec3ddae9f8c9dda95eac09cb7dbcee1c5a9926471e6058e4bb787bab4b6e	5056	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact4.ogg
+file	local	7308df401aa2c4c86edfe8d060c439c1d464aaf90a1b14541a132ef98efaa69c	5087	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact5.ogg
+file	local	3e10b837591a1de9a73242f84040b962129131d667ac3fe68506fff1f626e322	5172	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact6.ogg
+file	local	810170ab08d3a62293b5e5ca65c578ec99f13b35d56b1f5a7ec102bc48e958ae	5171	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact7.ogg
+file	local	95b1e5948cc1c1015badda0dca848d66826e5fe806bff3f2b83664dca954d336	5207	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact8.ogg
+file	local	a20580f2367d68dd76ddccbf16b52d403151abd11959d86b9636b5d33730c5a4	4886	tacz/immersive_ballistic/assets/tacztweaks/sounds/generic/impact9.ogg
+file	local	87fb3153a20b715b9adb7fa1a7627f095bb0ca348934d7b9740b6662db7232c2	21471	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/12g/close.ogg
+file	local	5c420bd533cf5f27b95ea89dea40c1bbd9556dc1503217005e7632a072d9c168	33066	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/12g/far.ogg
+file	local	e4d5de4cd304db53f178da1fc0aa93de93dbbac8a14f6069bc5cbcce5db73170	32251	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/12g/medium.ogg
+file	local	4cee5ed8f8891be595da3f7fa23276037815279e13d64ff2abe37f259b132143	35893	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/12g/superfar.ogg
+file	local	310fa36833304eef4dea37b107fc1c954c9497a9949da5803fe192ee6e65e8ff	32743	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/30-06/close.ogg
+file	local	324143c471c8cc4a4b153c080293be5b87b00be2fd030e692baf854eb41719ad	28345	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/30-06/far.ogg
+file	local	cc8802d6f37caa5de2d1b457c010f2cec4d850479089cbe70bfec0e51eafcfc1	22928	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/30-06/medium.ogg
+file	local	91c7b245d14ed4e3297387864ef027f6e4de397928f5f02fd32da9a3049161b2	29519	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/30-06/superfar.ogg
+file	local	3dffc1ac867cf40990181ba858c0541a5bf0d8af9c52f0863a21a1877f9b3dcb	23462	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/308/close.ogg
+file	local	e9ee217045d2642fe68c1e6477e0ef9217420fd15797311a9c27a785c0e4e780	22854	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/308/far.ogg
+file	local	7d3a5d0824cfa90e4d9892edf5c48e404bb93dd63dfd0a4e7c4cbd9d232f9568	23562	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/308/medium.ogg
+file	local	800ddceecc9d8920147b3e803275d4ea5f6748f705c709c2058631954b2489ae	46735	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/308/superfar.ogg
+file	local	b67e7e7afab4f99415f9fca24dc2a8b2675e0d7312db06032e39075859b6b7c3	68809	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/338/close.ogg
+file	local	a35ccdffaa97ee0e1edad56d7d49deb88a83e77e34587df3aa0b3c1c5baf5986	29386	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/338/far.ogg
+file	local	8e0165b37c6073ae4efdfb78e927b07f5036845d3b55cd3d3ac13ce1a53b60c7	31874	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/338/medium.ogg
+file	local	ad6a39e660cd3d25bb2e8b66ea301eacd1b1cda56f4a61f5f06fb72065b10c19	82372	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/338/superfar.ogg
+file	local	5bbc6a716c918542a508da6e1e387ccb9b4c44a952a278ac9c020957804c70c9	51335	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/357_mag/close.ogg
+file	local	e37626f89f43e3f0096436af1d20e3fd053ffe5430828860ad7cd04d2054a359	23765	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/357_mag/far.ogg
+file	local	5d17c3f1f648b560c9070bfd7aff31339fdbb24647ac80bf546cb83e0aca2d63	40064	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/357_mag/medium.ogg
+file	local	13c9228ce73b31601f4c4e11011cdcae9dfc8445e589af07cb3f49a739885be3	23505	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/357_mag/superfar.ogg
+file	local	a01fa4ecdedef23c711747be393029087146cc4be5f52e36c50577fefd030a4f	23638	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45_70/close.ogg
+file	local	f8ed57bf1f630791efed649f8ae0fa1e024851ba80f5ff8e9ac0f38e311e8e15	38599	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45_70/far.ogg
+file	local	5e9848d5a71f054e7c6c05d14de01691c5664252a7e7c6e36485766deeb0621e	61116	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45_70/medium.ogg
+file	local	f91c1b955082bc5297a70ae961e2d94a099f4035c98401cc51c8ac84dad74b87	17184	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45_70/superfar.ogg
+file	local	f3c0211d565c879ae153715c5cf582804597fb592f79aa607658692d4457bbfe	31340	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45acp/close.ogg
+file	local	edbbd76e6525c08b416fd2157ec6539c17d3ea08dcb1654521758c00df200472	26501	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45acp/far.ogg
+file	local	546dd1dff7d0c6513a5f7afb669ea0970312a9ee1e166b91018469f14e3b2f4d	25873	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45acp/medium.ogg
+file	local	c0782b9f33c5247215e4bd9ec757381c9ccfa998a7e6b7c25f394a3f7a72f31d	39099	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/45acp/superfar.ogg
+file	local	9b4601a4e328041e9acec943a93c63c913aa51cf7408f2cce6ef5bb9e3a96438	36052	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/46x30/close.ogg
+file	local	4f124a9aa11ba63ac5297c48ce4ae4fe6cf34acec5bc008bb622c54dd4e84d89	63354	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/46x30/far.ogg
+file	local	e8dea443db6f64c7a244e528ac483ca805703fbfbf95c501a8ab7be5d04e9471	36233	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/46x30/medium.ogg
+file	local	471f8480b912f33cca1dcce70512101b3ee3491318c8e602151393618a5cf4b1	44496	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/46x30/superfar.ogg
+file	local	693e50c319e559cf74cba44fecf968a2167c52310c327c16f646abd15e45e054	28706	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50ae/close.ogg
+file	local	05b0732ecb9bf3fa849a4e89caf44783191084cde45e27d2eaa93eb8215d2692	22232	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50ae/far.ogg
+file	local	f3e1a377f9f8590219f7a6b39a485fad7dc4190bf85bced266c6472a43d6d87d	25076	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50ae/medium.ogg
+file	local	c8c2a7e5262c204c3bcf85270d1b30d808ad2d63d77c477ae8bafe2d4d945e5d	21232	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50ae/superfar.ogg
+file	local	e06dabe36e71408e8e67f4648d21d1fb001bd9b7076b691e8c7be40e79f65209	26272	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50bmg/close.ogg
+file	local	981f03b9a07049fe5e0cfb2c68a7e4a44793f51e5bd741c450c7d1cac86abc33	29009	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50bmg/far.ogg
+file	local	1631681cfb9c6a8999c68fdcf940f3ae531148c081120252aa9422a4d109d0e2	14526	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50bmg/medium.ogg
+file	local	f56b452752ee78c5f6b42ce4830fa5cc6c018ca71b941a0ed9a6d4843fcd4e0b	17840	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/50bmg/superfar.ogg
+file	local	dd95e7fd74afdb05a93bdac60fb08d497b71785e99bc8c2f927dc07bd2be50e1	35362	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/57x28/close.ogg
+file	local	b76c9299bbd614d1b5d0efbe78ff45ca4492024514b55e63a3acdd8f6fe0d3e8	22705	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/57x28/far.ogg
+file	local	a8e5d4e444f57e812b09cc95151224b33e623977312945e446703a5cabec6151	25012	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/57x28/medium.ogg
+file	local	0f5d3915fee4feb87fa85b15d976ce71266a9623ec743d392bc4b019f65abcaf	32874	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/57x28/superfar.ogg
+file	local	f0cacb99bc2f23861ab3f4372182ff4d9e425c9a0530c24f3ac2b383af9ea6c8	32793	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/58x42/close.ogg
+file	local	8efcf9e5b72d82f097f909307eeaa25a0dd80f5ff68617f0c56b32f94e4ceb92	36913	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/58x42/far.ogg
+file	local	eb7ab67989acec812abf6b62acbce6d700c7efc995978b82a6071436225d232c	31029	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/58x42/medium.ogg
+file	local	46d5791f785a5b20870377ff71b85150bee940f408c01c90cd94017fd0b78a49	37052	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/58x42/superfar.ogg
+file	local	ae961e211f0031d92d284597ca65f61c9f069a0813a5caa087e3b50108face77	44122	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/5_56x45/close.ogg
+file	local	e26a33a6212eef8e75f23b01cd7ab61d555dd71d935f78c3fcbd4052c21ef4cb	16988	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/5_56x45/far.ogg
+file	local	ea8683d51a313636705e9714646c5b6cb78609a45c757065d9287ba045aa5cc7	32896	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/5_56x45/medium.ogg
+file	local	795d439935696dc1cfb33f536b06938238cc0b507e908ec03fe23d6fc9781b64	28039	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/5_56x45/superfar.ogg
+file	local	80a9b2c7165bcc50d2fc94db465cd8ce1c1be32beba3bc8bce0108dfd949c1b4	34553	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/68x51fury/close.ogg
+file	local	a987a0b7814705c89b2921b9c98136439edb63ad424f92ae2dc3715f95837d8c	19267	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/68x51fury/far.ogg
+file	local	e4c7d96057b6fd3d6d1f24c4f88916bafaea786cc0ffb079e824be388e4e5819	26022	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/68x51fury/medium.ogg
+file	local	088a36fe88ecdf236162e79970ed0701f9a025aa9fc4c8fe00b0b9d6868b1a57	50299	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/68x51fury/superfar.ogg
+file	local	a7c33a56c5f890500026cf0c9b0a349952fc16fd42392f2055a80d7dccdf16e8	34072	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x25/close.ogg
+file	local	42ac84f7cfbcff91ffc6d9d462909ace2f504501af295a6c854a19cfab7f90f3	41331	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x25/far.ogg
+file	local	1a0b03980a8a300203ffb5d952ab4f97e896e5c3192fa74e92916be410a2ec13	23731	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x25/medium.ogg
+file	local	733e8b8dfe7946ee93fb97f69cd1de1ef17c03a1e76dfa009b4e4984279f9de1	45160	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x25/superfar.ogg
+file	local	d1350854f1c45276f447534f9093b857fef0e42e700944b8426f01b9871c6318	24901	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x54/close.ogg
+file	local	081787371ef222cc9c9233a6a5bcb16562f4f9aa780c24784170437764721e9d	41659	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x54/far.ogg
+file	local	6780eb68de288b7cd33546f37d3adf376766aa85cd68deed477363cd6cca2a5e	31089	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x54/medium.ogg
+file	local	4c4d39f0dbae172649c31ea90012cfcb88684a4acc93e1449e2bbba0a7381b3d	43226	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/762x54/superfar.ogg
+file	local	719309e77ef9044e9d7684ba9670bc044ef8be3a4907e6eac179e45ffcc26235	32965	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/7_62x39/close.ogg
+file	local	8bde73cf4d2119174c6aa2ac7eb627d2670cd1d495334b3bc4a032d778a44c71	27584	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/7_62x39/far.ogg
+file	local	9edede5d1de2b2eaf48ac1c2e1e85f2412bf6d9e7de805b48cfecdaf59cc7c15	34453	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/7_62x39/medium.ogg
+file	local	7af5ab441131bfb287c3612023513679bda267c2da8aa0477ea29b4e5a6161ae	30930	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/7_62x39/superfar.ogg
+file	local	ea3af18bea20c27a00c4f6e16d60136a99c5bf64289abb0d018f8ca42892b1f2	53230	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/9mm/close.ogg
+file	local	4d86057cac36ec02e8294eff0eb2b8dec0673a399292941164e4fa61b82a78f4	26110	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/9mm/far.ogg
+file	local	5988958c86b6a2c0c310565adabca0fba79406e0f6f0273a4eb6c4a46d58da8f	26712	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/9mm/medium.ogg
+file	local	9d9bc315425e4704cd672b805944a2cc25d15c16162b8ae8826d54dd3083b3cd	14179	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/9mm/superfar.ogg
+file	local	e9b7e211b42a7ce658e1a28e82bb35266e366292d3bc10a1c96deb474dbf5110	57709	tacz/immersive_ballistic/assets/tacztweaks/sounds/reverb/rocket/crack01.ogg
+file	local	e63dbc7e701682edc9044132c0695907150c56471d2ef4c012885f7e53408cf2	7529	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/body/hit01.ogg
+file	local	7232985d67bd02b8888532cb70c6ca3ae347df6c88208837dbd2c8b40c80cc3a	8682	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/body/hit02.ogg
+file	local	7865d145180a641c9e383328e37ce144f11badabcac9a8d45f6053ddcf60cc27	8666	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/body/hit03.ogg
+file	local	c370a49c14d902a4f68b5986f831099b83437d36bdcb035706664d2178420548	7637	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/body/hit04.ogg
+file	local	55a6a4014ef2c82150f11f8b6a4aef2220bce3392c2d254988051ccbf95ba57b	12805	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit01.ogg
+file	local	01d85b64c1d2578345365a93df01a8c76c21872f4d4e5d92db1888333c52cfdd	6320	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit02.ogg
+file	local	0ac44171b06f182407f00fb5ffce801016e1d00a5093df943bf216c1f586e694	6261	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit03.ogg
+file	local	a6e35106e7e5f9960aa3972e804a30124fe257d97a76f2606beffd6ec31f0b13	6084	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit04.ogg
+file	local	a5b7e1cd4f67f60a5059df6e217c51c652d5860e2713fa437f60f49153c453ba	7589	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit05.ogg
+file	local	27c434a1d6cdd8cd9862072ea1655d467be582a3d3e6fbfe0ef39aacd3b75ea3	10970	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/flesh/hit06.ogg
+file	local	eee0daae1e05b57852350aa7c32cc05516252954ea1160fccf7e19fc088845b9	15660	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/mortar/incoming01.ogg
+file	local	4965fc2846de25e2eadad0d9ab52d7f469e5d1ff7b7f259ab4c5e711d74b5dcb	15982	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/mortar/incoming02.ogg
+file	local	e9778e2a5fdfd03593585d8813a6f4f68bc09c3e007643275904000664f83b22	17840	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/mortar/incoming03.ogg
+file	local	30d9ff4706e1e2ef2214e1448c007ab8ff0f5e17113cba17faf36ae15da20e46	16415	tacz/immersive_ballistic/assets/tacztweaks/sounds/shared/mortar/incoming04.ogg
+file	local	83946bdd55397ea66355335c907441627ef034d5698c4474013f5778bce200e4	3970	tacz/immersive_ballistic/assets/tacztweaks/sounds/silence.ogg
+file	local	6d1f6b1659fc187c4093ccbf0a895c69b478e66aae7114c5279cbf01986d26e8	9732	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/cloth.json
+file	local	54ae5e8e7718ba18b9d54a066f4f395fe5eb0a54f4fda91ff87644b51d32384e	4928	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/concrete.json
+file	local	ab9d223ddfe3ef87b213b25947d67a06f589788842900c9327af16aafd5be6d3	4069	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/foliage.json
+file	local	f686a4cff7c28a8e632374de60a928110b283ef8170b5c59ea8b98f88d4a480e	14651	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/glass.json
+file	local	2e95cebf09121ba53fd9392ec560e51ce47565c930c678f78b9e2ae1d6e49a06	11266	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/grass.json
+file	local	3a3764fa74e0261b626771b8eb12b85994494ff14b9ce54dbc0ca1b01bc0c537	1341	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/gravel.json
+file	local	8443dc229173985980482eee6b418076e10de71493347ebcf8c1012c01572a95	3688	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/log.json
+file	local	1e0d142f2ad7d2bba6f37dcee11e8132d5a0661cab5a7abe439dc34afc6e4b5f	40829	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/metal.json
+file	local	d0a6441e102a83b4043a885c618de1be3104123e998419b5f2431d359a72a641	41781	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/metal_thick.json
+file	local	589928c7b4b3b6b7aa891dbdfd5705c2f9ab27e9a09712b124d96f3d7b7c43fd	295	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/mud.json
+file	local	8d55ad7d1463d8cf8137afa1c6a063f71100d4ac52e74acf5f23262e456c2763	704	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/sand.json
+file	local	31d86fd1dba09e5ac6aecccc5793bf86f6566bb30b38c291eedd619cb170317c	86419	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/stone.json
+file	local	9ecaf092882bf8a36e1d88f2468281a03953ade7d6f5287015ea2f6e6cd79d4f	38194	tacz/immersive_ballistic/data/immersive_ballistic/tags/blocks/wood.json
+file	local	b8839f48ae416d869b04739f50bfccac6bcabab8e01aaa9c43f70a2ebd25db1d	44	tacz/immersive_ballistic/data/tacz/tags/blocks/bullet_ignore.json
+file	local	e84ff417f7367c0ecb0c212e269458fe3838704966f7ec90fb82fcbd7c528d33	183	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/_ignore.json
+file	local	40d7a23100a27c434abb3ed07d9e5f56ea07487c1087267d72df2c2eef011d72	376	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/concrete/hcal.json
+file	local	3699b67ead5740a1012d1da51bf45bd422b31bc785d0c2271a6b17e572d55ae7	574	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/concrete/rifle.json
+file	local	4db6046af4254cdcadf36a1459cd5f8a602808c71b6682c143090758878184d3	493	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/concrete/sniper.json
+file	local	753c67a54b4aa4964780f216bdcdca3daba0dc9d881d539fca5127664d1c8af1	327	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/fabric.json
+file	local	801d3b6a3c88642d5e660a096be742672da16ec681e22f0ae29081c340ee27d6	256	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/foliage.json
+file	local	099d2b68559f498e274bf57359b6ac4aad5c95f2ec2f47ad1ce4e1569343fc52	268	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/fragile.json
+file	local	177c27cb8e3a15be406eeeec8478ddeae63e38ebc2dc075e3da71611350ef0e9	351	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/glass.json
+file	local	b30ffc8625ac4fe0a3a4b3aa53d7f5b66bd17c1a98ead8acd0ef52d1f3789349	329	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/glass_granade_launcher.json
+file	local	74de58bd50fd159d102680f9cce2f39f34cee49eef59685eb120bbfc62c7962d	481	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/ground/hcal.json
+file	local	c3b054090d6444436cfb5293ffca47eabf889c14d2f8343ed692719c631a939f	304	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/ice.json
+file	local	3343b513b7b6b49d370e29741b6451f081b33cf919982eaace5d87e43e85432e	442	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/metal/hcal.json
+file	local	67582b759c094c5ea9ada342419c787c92a09d7b75fa0926c425cea585922862	557	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/metal/sniper.json
+file	local	60dc365ccee603651988d98061f46a929627337f22750f37200bdc1ba1986b26	270	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/pointed_drip_stone.json
+file	local	e93b6494b5aced54b409261cec6b23081882fad3a814a6178a105e6542e13f49	299	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/squishy.json
+file	local	e1e7a90ac7b5c39a811c95ff86283204be3e9cbf9d23274f56a4ca91f37a3072	467	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/stone/hcal.json
+file	local	fbd0ded286c2fa01234c7f52fe6d26cbab3ad43db1979259440b531e14ae3059	386	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/wood/hcal.json
+file	local	c6d2076db4a51e29e92b6a320088cb586f7fbf2a8c71e41c9a010c21cd09ef0b	783	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/wood/rifle.json
+file	local	2761a5a83e3c76f0a2a898bb7406d2107b990c3de2229c08d85fb52b7709bdc9	407	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/wood/shotgun.json
+file	local	c78de97c4798d793a4d25e8acfff8bbbae1c32e7e5fec55c8f1849838f93ce95	588	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/wood/sniper.json
+file	local	3ac4a4eab8780a872eb7d1394a732a8b6c5ae4e917127cb16f82291ce62e9403	466	tacz/immersive_ballistic/data/tacztweaks/bullet_interactions/wooden_doors/shotgun.json
+file	local	c1228a6deb104c9c19cfa6a5e8043f18189cce78dc664e5c3d6ffbf6e72c835b	204	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/_ignore.json
+file	local	9a5fe8498e6bfd1b68f36f185b53640b8390dc78dc59d57e46edce52ba135ade	969	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/fabric/hcal.json
+file	local	9078431e4e2cc60029189e4add696e8265dc750953456a60f59a1e25860937c6	895	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/fabric/pistol.json
+file	local	f50356e560faffa3d2b2cf962c07edea449557870b947aecc6726c69c539981d	1266	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/fabric/rifle.json
+file	local	27b6a618b1f764a392135c283053910f5c51323683804b8730e8d206dccd020f	1083	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/fabric/sniper.json
+file	local	ae401e7635ccf912871e55bf57a1952a40c05e1eaa7dd746a6ff4dc44d43584a	551	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/foliage.json
+file	local	67b9fdc0ab4ac603ef6485b136e72ced5c107903327c2a5d72058a6ddc8a3c93	998	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/fragile.json
+file	local	c8668e75f0f2b65e3aed9d099374cd0aa6b807c7c9b0af9bbee989e81356de19	414	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/generic.json
+file	local	d0b602f7ef73662967d10c18e71fcf8d0fff584b00a790e98bd7f056bff86e4b	294	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/glass.json
+file	local	0c2781e3f2e6536a1dcddd9ce1ae559e728f79fb77b8d837c0b4d23c71b5b7fc	1432	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/gravel/hcal.json
+file	local	9accec447bef15b9a2bd9d57e30e5c0105372282a65111e44d650136bafb3b46	1242	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/gravel/pistol.json
+file	local	8252c9469bf8846217afc7faf259e56c711727af74175004503a167263dec743	1231	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/gravel/rifle.json
+file	local	57d0301a52e2bde71122a8e883e9178816d17426e5771287eeddc2e890cc715f	1053	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/gravel/sniper.json
+file	local	53fc23e892522363e037d57baa219a94faa2416408fb4b09c34c7cdbfd3283a0	1709	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/ground/hcal.json
+file	local	9c19ce7546075bb350c9ec4bb910438831f465d1834d374a95a9d45ab5c9023c	429	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/ground/pistol.json
+file	local	115963a9665b7de0e3a894011175d0d73673f09f2527baefaa759de23c1a5cbf	945	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/ground/rifle.json
+file	local	c3255098a3b66a52dcd9a43dad19a7749f395446fd21487a0fb4e01473275937	906	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/ground/sniper.json
+file	local	81defc96357ce3a8c0350eca45e6f1a7083704ec069abb4d60da3fa9da379b38	542	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/hay.json
+file	local	c0385ec04d9d56887c6d252874aef44ff4ed45218326e71feb7cd968601a3e31	1367	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal/hcal.json
+file	local	2d4bb30ec141d111b2ce4af13e4dc031cc1694d6e2d1992b238cba6e23ac544e	654	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal/pistol.json
+file	local	3a722fcedb3a82e00cc8a4972514717dc317777bb2d7e48777a90a64abe17f3f	1173	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal/rifle.json
+file	local	779377a256288484c6a3cd4174765a023ea55c941907aabe13df659b6e80c02e	1551	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal/sniper.json
+file	local	47474aaaf3848d3b7725e6e4d2b544e674fcc138c312d6aeae83e9f424aa431e	461	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal_thick/hcal.json
+file	local	54f387d8d50904cfd201139bcb4b66f8cadc9145f2cc17f4e9fa6ce45852f944	297	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal_thick/pistol.json
+file	local	c9789da55f7e215c26fda0fd35a847367537496898a10edf76f863d7f6fc2092	662	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal_thick/rifle.json
+file	local	c93b1ee267d452f6d3c34a3efbe9364d994778778643e51353cf233cd9baadca	618	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/metal_thick/sniper.json
+file	local	bebfe5e5f769f7e422543e831bb9c04e8fc0bdcfd888af3775bad56f1b1d03f1	1076	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/sand/hcal.json
+file	local	f434b0d34557548f927fe446fbe03b25766d56b004d74414edfbe586e0f4c6fd	353	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/sand/pistol.json
+file	local	b2e27da437d7001c1aa869532e8d5ea06c0d13e9eb155310fd4bf430a3ae8168	1234	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/sand/rifle.json
+file	local	b4e5f651203409efb596b02bd72a55ea71f611e00923c86b06278cf4aa3ff152	1188	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/sand/sniper.json
+file	local	bd85083596056748280eb939afbe6b2d634f161495896612f59d2524d88f5f00	1126	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/snow/hcal.json
+file	local	2046d13d36f3314a834ef52833002343d0a55ffe986301222f3a9c82e217b652	371	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/snow/pistol.json
+file	local	14c4fd53fff0faded848eb441db59be9d31561c507a98634c918069b9510eb66	1020	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/snow/rifle.json
+file	local	299fa35279fa0db91db946223737476b9fa0b3ad1c63d2eb0e5433e5750e2500	996	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/snow/sniper.json
+file	local	aab5e0f9fbcbe440037ad7c96fabc4b2af0529a5d273ce0c13fecc61139d954f	1641	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/stone/hcal.json
+file	local	38f3f55a6bfa13b56eeb3583e53d66795e420c443e08e40d5bdd3d660e5223da	460	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/stone/pistol.json
+file	local	e7ada5969cd4c1b2de593e047b7a0f427777276cae0032a34d99e2e7a5675ebe	1798	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/stone/rifle.json
+file	local	9278d1475cb5f6f7f5985d8e154b5cb1ae839bd508153a6ee67941a2dda0ae07	1603	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/stone/sniper.json
+file	local	e243414ee80557533f6af7db3bbff6fc657a4ef0d505a727ebf838431dc2c4c3	1534	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood/hcal.json
+file	local	1ca772ca9727e610e2df408a463afb2a8472150a1f4e29c97684fee4647ce577	1371	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood/pistol.json
+file	local	9d5ca0f9a7bca3b8cceeace2bb2146f604f83252ef2a1ad0a224b078997a27c3	1719	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood/rifle.json
+file	local	b47b41960169db9ba270695bd7592674c899e9bdba86e48b735ce15cd6309191	1555	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood/sniper.json
+file	local	e280e9765cd5b080956c53098466ca3782069c2b274310d2dbda743dd5e29a6d	978	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood_log/hcal.json
+file	local	df867289b1af54cb839f66bd86704916a4075074f237b85c91749bc20b513e00	387	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood_log/pistol.json
+file	local	86f71df2f75f872b10a56b910fc4c76c04940cc678cebf160bb37331c479e431	758	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood_log/rifle.json
+file	local	3b3d66cd83dd0f6966d02686f22651fc6d4e3aaba64df9fa8e401fd6870fda41	579	tacz/immersive_ballistic/data/tacztweaks/bullet_particles/wood_log/sniper.json
+file	local	7ab251202b3098610b61b0e9228eabafd47bc4d7c3e39a7b8cf8b721b49c2f1c	185	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/_ignore.json
+file	local	3cb6f05c141749f895c96b542c8d0818e2617e4708af2563f4f376b52ffece2a	1060	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/cloth/hcal.json
+file	local	0c3922da1ed7049f371f3b4cc4aee2a6a66c5b0a3b0d475f280d0d8ae141008b	673	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/cloth/pistol.json
+file	local	f5a013419c42a43fa28665fe4d26e352a3c87682dccde494ac0cb24d78b72352	1354	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/cloth/rifle.json
+file	local	bebb9b24247d8f23eee213bbc19afa203ae69c7ce00a1eac63760e3468a39cac	1180	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/cloth/sniper.json
+file	local	1f2c494ab1debe34475060f1b42186ee9521849d4cabb6601bc27d4c958d57c0	1081	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/concrete/hcal.json
+file	local	dac913a2b7beafc331d48bc1b7804f4c5413fb79ed37b373e20c4172e9686eb3	693	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/concrete/pistol.json
+file	local	d3011403b92e9f82a88dfa38fb003f3de9c94cd7808942c0ce7ffa07f74abd25	1383	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/concrete/rifle.json
+file	local	5f4ecdc6d2c5643c067d6d3c3b710913de428dfdef42c27beccc7c6387275558	1200	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/concrete/sniper.json
+file	local	e585701d8bd3e1f24922b4770b63d5713f15eb28205034998183cf3f444fc5e7	1138	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/dirt/hcal.json
+file	local	35a0dda571100bde7aed5d59c1abefff8e689ac6a5a84c917d4faa924309c2ba	669	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/dirt/pistol.json
+file	local	ba7827151c046e85250aef777c0b187b6d8e597f7a6a7e158bf8efecd0ef2e3b	1350	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/dirt/rifle.json
+file	local	ee0472e1d3373f9bfbe19dfb3a21c1ca9403c2e037d8e4bf8a5b5b88d0d50580	1179	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/dirt/sniper.json
+file	local	f98572c9ee9c39206c5f04599876d15eb744ba4ef681e52f4688e34db49cae0f	773	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/fabric/hcal.json
+file	local	c414c9c3ba69fb7f443dcbc7b6c777f5101227f01343375caafef206dcc302aa	300	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/fabric/pistol.json
+file	local	eae294103a37dad3df70fe74afa7fa2a19f5d2c5e282365353be3bbd6d9c169f	1067	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/fabric/rifle.json
+file	local	7c0697f0b9ba8b9fd6a6d2d37d0c0ca5d31ca8c06f54e30243591ffc0386d3a3	890	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/fabric/sniper.json
+file	local	58ad878ad1340e72dd90dddc43c1ba6a2bddb8547b7b9433261ed4903ab7a9e1	576	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/foliage.json
+file	local	8d2d4bfb4c82edf34e39f4073c2bf931f076342d3028a7ccb27ec339fc7607df	286	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/generic.json
+file	local	e7cd948c60eb787d5777c7d68d998dd91679c1b7584613d14b2a1c854765cfe3	1052	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/glass/glass.json
+file	local	56e7846f191d0206672870f196f10279e3dc388157545c2197a52017ddcbad55	1064	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/grass/hcal.json
+file	local	f443ab9a8212d9d16dca719ff91f278ec3065a8eb9881bdf5c18d54f8ea106f4	676	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/grass/pistol.json
+file	local	72dd7bd2f3f49a88dc13bf40909e2a474298ae72365f9045af1d2be69bf25ca9	1357	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/grass/rifle.json
+file	local	98065d227388b1a872f07b26c0bda78881c38755f8e4e8c5697ef128b9248a22	1186	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/grass/sniper.json
+file	local	96656eff975c515a4214d86a54ca52635395b626cffe9d813aa3757512ad362b	1056	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/gravel/hcal.json
+file	local	a84e204da7d3839f60d60e43a9754491c28f55b938d4347ff6188951cd159708	679	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/gravel/pistol.json
+file	local	7f45938e2c35c8c73ddc1c2b444bc2e0a15f4ce933adbedc5f8a8431f99aa796	1360	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/gravel/rifle.json
+file	local	1dc0c5a7d353d1c40e26df322662accb77353ee53c423f1dafbc8fc958169f3f	1189	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/gravel/sniper.json
+file	local	fcbaa15e72cda91729dacb7616e603ebd2e07f786acaa102074b095393f92a86	1061	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/ice/hcal.json
+file	local	165153edd00c8dbd7527ec4f6eac8137dd57c1ac3300f93e945b52be7ebf416e	674	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/ice/pistol.json
+file	local	6ad7de0c0a7a0118bf46c7bc7be23564763804545d4871357a2637a3ad954e7e	1355	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/ice/rifle.json
+file	local	cacdf1c03e69fb54eb6dc4aeb28cbf228bc2b2cf9f79d4f623abe3f4f451de32	1181	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/ice/sniper.json
+file	local	d9fd13ecd536cf4f6bea2ef9a16e26c447ec77a572eb1f5fb2167d4daee70465	1034	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal/hcal.json
+file	local	eba93d2de6dda75357c5540ffd11438ecfa0c7d908a39acbfba9c58a457df7db	673	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal/pistol.json
+file	local	aa6f3dab1e1a1c63965bc96ff2cec1eb5a2ee0f7b26e1a40e3d6b21a2697371a	1148	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal/rifle.json
+file	local	44b977f4e7672aa0d42d1303585f494888466b6f47d810b064b746561867f4d4	1263	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal/sniper.json
+file	local	eda2a21ceb65d4d4fc3ceada8400c50f8b134a08bf23d2fbdbca6339eb6329f6	1092	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal_thick/hcal.json
+file	local	1b7102d473345fb549b07b988733240f237ca8f40528283ef9df02a713f0bbf5	705	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal_thick/pistol.json
+file	local	40e7d4bae457e1a83d599d2fd4483a299e4468e21d84f5d78b7edc807a0174e8	1386	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal_thick/rifle.json
+file	local	9a1878bd86fb73b67e4cf4afbfd68e2d9b06ed9f61e38ca81d8e88e4ee438583	1212	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/metal_thick/sniper.json
+file	local	5c6f1468f263bcaa087f9cc54c9feced248b8bba21d4d8253c8ecf9f0663702d	1060	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/mud/hcal.json
+file	local	7a22fc307caa068768fe21e1510e06d328bdbc70755705bd65cb2c15bb0053fc	673	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/mud/pistol.json
+file	local	e7856914b5ecf8a09fa29090069ba15e0f4b221be3efb5e21376f650a386c7f1	1354	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/mud/rifle.json
+file	local	3857c7b2d38b54fe861100783da04a20a5b863e9e97f97ce6398dca181b6fb81	1180	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/mud/sniper.json
+file	local	70e0ec91aad3db631bcbcbddea8aae782f9df3740f218a61e74747bae13ee135	1047	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/sand/hcal.json
+file	local	cbd60f0ef0b52f00db34c04b12f29442b0c60725436d0c2dd589275381011f25	770	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/sand/pistol.json
+file	local	8550cbce065afe47f390a76edc109cfdeee23714cce5059e518af18a29e3b20c	1344	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/sand/rifle.json
+file	local	31eee3e54e1a564b5f49caa13c26289114819fdfe6bbf5550e26cd942549724f	1168	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/sand/sniper.json
+file	local	c286ff3f56e5fa8c53a5522420707c5855cca05b98cb98b1e162de6d4e1dbc3f	1047	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/snow/hcal.json
+file	local	6399cbb8824384d12a636efe652b7d4313fbfc8fd2c305e17bd195c4db632390	770	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/snow/pistol.json
+file	local	b2a6da31299af1049c47e5b49721e5b9aa30807f90fc0271f2673bdb1b209880	1344	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/snow/rifle.json
+file	local	a35d6c8a8859cf13fb7991b66e63a8d3b142341bd29e115f544688586b94ade9	1168	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/snow/sniper.json
+file	local	40b716fa4e54fdecf7d2e25c01188b7522201c65640151d8a3a974ce43fec289	1121	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/stone/hcal.json
+file	local	f427eb5da194c4c45931e6667196e344e849d6bca4f4f4b8000183fc7e6e83d2	736	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/stone/pistol.json
+file	local	3cdfce9be4818d91661a303820046560b9f07c897b805cf1d83cbc8ba8af92c0	1417	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/stone/rifle.json
+file	local	93bef1407d7562d814b54b3b55300ff103b8ebfdc87dcd657872122364d66e9a	1261	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/stone/sniper.json
+file	local	9d635089157524e70d6ec00c166849d5c6f82a8696b0bbd6d7e133043b5671b2	194	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/water.json
+file	local	b3c86304794f71fd193ae30c2e11ad379afe71747b53aa50af04bfa9642e9137	1155	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood/hcal.json
+file	local	ecd2690849996c096e9c49f5ecab3ffee3018ad3a33c12f57c5040ca615bb234	665	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood/pistol.json
+file	local	eca1f36d0a3590cbe00057b6f3ba368852b649acd5c270e9e57a5e2c60db745a	1392	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood/rifle.json
+file	local	976acbd036eadb91c571e431e97bc56888f3b899228ab778d6b19c11fab1c562	1116	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood/sniper.json
+file	local	5c63beffa4082f2ef6b383252723de08034382113aaf40ab0faa3d77fc3bc229	854	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood_log/hcal.json
+file	local	bb8f70b2e3569f10c033b106827b07a6cc9ac1720cab86ddc80771710a3d1ff0	291	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood_log/pistol.json
+file	local	1df255fd4f610b95648143a35f80d1266e25c93cd5e02a09d149f3dc8ca9c836	1067	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood_log/rifle.json
+file	local	9572fceed1c66da81b0af6b3832a3855c0cd461f6dc02275f0e5dc0ac513fdf6	893	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/blocks/wood_log/sniper.json
+file	local	916eef315b028c8285c9e944f711a753992f8d75e3bf86029dcf6f8f68517bca	253	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/flyby/hcal.json
+file	local	c11cf17a34315fe83b7a413f8cc32743579455bdab701b80a60d48771aa59e09	173	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/flyby/pistol.json
+file	local	75288fd8bd99f8801dab3bfbcb5407dcdea75b071f895d920db0fb4272ebb439	548	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/flyby/rifle.json
+file	local	0cc2f3d492f97248801400401ce084f7cdd8b74644176819edb9cc2a5e7f5984	261	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/flyby/rocket.json
+file	local	ad7423f6df148663489228da8119837aaa384c7c626bfaa425d182baf0705cfe	367	tacz/immersive_ballistic/data/tacztweaks/bullet_sounds/flyby/sniper.json
+file	local	15f025bf02ddcdccb09a60244a69f99e793fff8d3c82dd593ad29b5a6eba9d3b	283	tacz/immersive_ballistic/data/tacztweaks/melee_interactions/cristal.json
+file	local	f75ae028ab092b1c7b509ef0a56b3c19feb7109dd5b485a3481a1e9a642c6d55	287	tacz/immersive_ballistic/data/tacztweaks/melee_interactions/fragile.json
+file	local	a06ec7356fe449dd07b58fedccb3c0c55ff89d590e945713c728547ce1097861	2156	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/air.json
+file	local	ecf5317e19f10a774375f8199cfe0a0ac5fdbc0a286bae8264fd892356978b2a	603	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/cloth.json
+file	local	8f15a7be5ef5fc639e24508d9530d29a2dda1936a23d2b3d3d7bcaf338e61df1	132	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/concrete.json
+file	local	4c630350c6d1cf47d93d673112722cd39fd1c352bb5d1141631a757fbf54dd86	630	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/concretes/concrete.json
+file	local	0f866aa7ee8e9f0596233216ff32ff6175ce9445f24df2ddaa260a31ec17d812	1422	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/concretes/terracotta.json
+file	local	1cb457e98a10c96622d190e9f744c8293b829521ab169207b3203291eb96ce91	423	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/dirt.json
+file	local	19cde3dbba5916eda4ed43af7a8dacc03d4db6e6be98485dd9deea70ac732926	566	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/fabric.json
+file	local	1b34ae7ad3c44db2871cbf4836542ca0556e2802aea5cebc44ca0482edcf28d1	1348	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/foliage.json
+file	local	61907f953a769161a788a5fcc2d84812472c832de9cdce1c000d7d4cd26263a7	109	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/fragile.json
+file	local	328677fd153d92b3c0e2cc39f1fcaeed7ca0cf9ffb8bc08e6646a70fdcf941db	946	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/glass.json
+file	local	9dbb5160ef191142074908818844dc6e7e2305f921cd8285550fb3ca694af296	110	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/grass.json
+file	local	87e4bb458b1d36ca67a0334a27265d36a07f1bf5a113eef5d5a2cd7903805308	841	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/gravel.json
+file	local	98e1e89f018b3cddfda6cdd420e060ec10adbee6f50dedd8d0237f90e45f7c67	161	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/ground.json
+file	local	1dc5169c9cfa48721deac65b05ddb9b5f72a3d87ec22a355f5b2627a2eea23b3	77	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/hay.json
+file	local	b7cfd6296fbf954a0b832f1fa1686ff9047fd2d73469a710bdd8e41424f4bb00	108	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/ice.json
+file	local	2681bad863e217b087e420f72a60e41bb5e87d1d61b98618bdb938ab4e702dd1	79	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/log.json
+file	local	352600a6a534062c35d0adae271ddb4b9b2afabdaa181e10380efeb2dddd3260	124	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/metal.json
+file	local	9efb68552f334728abba15a4d4c73294639b67663f83df15d9894e13a354566b	88	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/metal_thick.json
+file	local	28ec83ab68119970a755e0273d7993c03877401dc9c0658ada897f34efee2ca3	2275	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/metals/metal.json
+file	local	a775cb14bb23e2bff2aeec9169cb8f4a347267198f6875ec6a0f5b2ec38e006c	304	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/metals/metal_thick.json
+file	local	25bd5b6e0ab1e6bcb0e1bdb50643b2550b33b2e344d159817e8541322f8463b6	445	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/mud.json
+file	local	65f181f26fa31b6945f2b808c98f97dee5a53305311fed5925bf82bcb1b6c68d	1284	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/plant.json
+file	local	0d7dc25d2514fd4d43e1525c8fb581803bab8b8ffc1b1f9f3656cf1169b9133c	158	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/sand.json
+file	local	3d761a8b307dfcf79601ff7cf6913f4428fd544d3d5016c19cf9e50aa8e55593	137	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/snow.json
+file	local	251c92d9763e9349e7f35e902d59c4b36ec472e74f591fb2461f2c5ce07b93a7	5548	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/stone.json
+file	local	b5a1f5ba465c9ebe5065d922e08f70046f19f1aed6547bd183bebdd6bcef11f8	121	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/wood.json
+file	local	424fd9ad18dec37ff5b3a3e84dfccd5ade2569f2ceb009741cdb76f8a1a845b9	73	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/woods/log.json
+file	local	322939fd96d38d8c9714097abb1f5cf511efd4071dcde698d205d46411fa9af7	700	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/woods/wood.json
+file	local	43229c40813ab80800d1570011a63fa73196f711c51a8618cfb8069551d733cb	120	tacz/immersive_ballistic/data/tacztweaks/tags/blocks/woods/wooden_door.json
+file	local	f4584aac6f91fcd442d43091e63177f9675126b13acc51eab34b63d81d675699	33	tacz/immersive_ballistic/gunpack.meta.json
+file	local	6af09aeebf376c17e445b9a83e22a55d46712f4d4bfe977410a812e8146b792a	101	tacz/immersive_ballistic/pack.mcmeta
+exact	mods	mods/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar
+exact	mods	mods/ApothicAttributes-1.20.1-1.3.7.jar
+exact	mods	mods/BCLib-20.0.12.jar
+exact	mods	mods/BetterEnd-20.0.11.jar
+exact	mods	mods/Compat_AlexsCaves-Enlightend.jar
+exact	mods	mods/CreateDragonsPlus-1.11.8.jar
+exact	mods	mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar
+exact	mods	mods/Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+exact	mods	mods/ExplorersCompass-1.20.1-1.4.0-forge.jar
+exact	mods	mods/FarmersDelight-1.20.1-1.3.2.jar
+exact	mods	mods/FastSuite-1.20.1-5.1.2.jar
+exact	mods	mods/Highlighter-1.20.1-forge-1.1.9.jar
+exact	mods	mods/Iceberg-1.20.1-forge-1.1.25.jar
+exact	mods	mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar
+exact	mods	mods/JustEnoughResources-1.20.1-1.4.0.247.jar
+exact	mods	mods/Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar
+exact	mods	mods/L_Enders_Cataclysm-3.31.jar
+exact	mods	mods/LegendaryTooltips-1.20.1-forge-1.4.5.jar
+exact	mods	mods/MRU-1.0.4+1.20.1+forge.jar
+exact	mods	mods/NaturesCompass-1.20.1-1.12.0-forge.jar
+exact	mods	mods/Necronomicon-Forge-1.6.0+1.20.1.jar
+exact	mods	mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar
+exact	mods	mods/Ore Creeper-1.20.1-1.2.1.jar
+exact	mods	mods/ParticleEffects-1.5.0+1.20.1+forge.jar
+exact	mods	mods/Patchouli-1.20.1-85-FORGE.jar
+exact	mods	mods/Perception-FORGE-0.1.4+1.20.1.jar
+exact	mods	mods/Placebo-1.20.1-8.6.3.jar
+exact	mods	mods/Presence Footsteps [FORGE] 1.0.0.jar
+exact	mods	mods/Prism-1.20.1-forge-1.0.5.jar
+exact	mods	mods/ShoulderSurfing-Forge-1.20.1-5.0.7.jar
+exact	mods	mods/SimplyTooltips-forge-0.1.3.jar
+exact	mods	mods/Sounds-2.2.1+1.20.1+forge.jar
+exact	mods	mods/Steam_Rails-1.7.3+forge-mc1.20.1.jar
+exact	mods	mods/TheOuterEnd-1.0.13.jar
+exact	mods	mods/Towns-and-Towers-1.12-Fabric+Forge.jar
+exact	mods	mods/WunderLib-20.0.1.jar
+exact	mods	mods/aether_ii-1.20.1-1.0.13-forge.jar
+exact	mods	mods/alexscaves-2.0.2.jar
+exact	mods	mods/alexscaves_torpedoes-1.0.4.jar
+exact	mods	mods/aquamirae-forge-1.20.1-7.1.10.jar
+exact	mods	mods/architectury-9.2.14-forge.jar
+exact	mods	mods/ars_creo-1.20.1-4.3.0.jar
+exact	mods	mods/ars_nouveau-1.20.1-4.12.7-all.jar
+exact	mods	mods/arsdelight-1.2.2.jar
+exact	mods	mods/azurelib-neo-1.20.1-3.1.12.jar
+exact	mods	mods/baguettelib-1.20.1-Forge-1.1.6.jar
+exact	mods	mods/balm-forge-1.20.1-7.3.42.jar
+exact	mods	mods/bettercombat-forge-1.9.0+1.20.1.jar
+exact	mods	mods/bits_n_bobs-0.0.41.jar
+exact	mods	mods/blueprint-1.20.1-7.1.4.jar
+exact	mods	mods/caelus-forge-3.2.0+1.20.1.jar
+exact	mods	mods/cataclysm-to-magic-fix-1.1.0.jar
+exact	mods	mods/cataclysm_compat_1.20.1-1.0.2.jar
+exact	mods	mods/cinematiccataclysm-1.0.1-1.20.1.jar
+exact	mods	mods/citadel-2.6.3-1.20.1.jar
+exact	mods	mods/cloth-config-11.1.136-forge.jar
+exact	mods	mods/cobweb-forge-1.20.1-1.0.1.jar
+exact	mods	mods/companions-forge-1.20.1-1.3.4.jar
+exact	mods	mods/coolrain-1.20.1-Forge-1.0.3.jar
+exact	mods	mods/copycats-3.0.7+mc.1.20.1-forge.jar
+exact	mods	mods/coroutil-forge-1.20.1-1.3.7.jar
+exact	mods	mods/corpse-forge-1.20.1-1.0.23.jar
+exact	mods	mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar
+exact	mods	mods/create-1.20.1-6.0.8.jar
+exact	mods	mods/create-enchantment-industry-2.5.2.jar
+exact	mods	mods/create-stuff-additions1.20.1_v2.1.2.jar
+exact	mods	mods/create_factory_logistics-1.20.1-1.4.7.jar
+exact	mods	mods/create_generators-1.0.0-forge-1.20.1.jar
+exact	mods	mods/create_hypertube-0.6.0-FORGE.jar
+exact	mods	mods/create_mobile_packages-1.20.1-0.6.1.jar
+exact	mods	mods/create_optical-0.4.2.jar
+exact	mods	mods/create_power_loader-2.0.3-mc1.20.1.jar
+exact	mods	mods/create_tweaked_controllers-1.20.1-1.2.7.jar
+exact	mods	mods/create_waystones_recipes-2.0.1.b.jar
+exact	mods	mods/createaddition-1.20.1-1.3.3.jar
+exact	mods	mods/createbetterfps-1.20.1-1.1.2.jar
+exact	mods	mods/createendertransmission-2.1.1-1.20.1.jar
+exact	mods	mods/creategoggles-1.20.1-6.1.1-[FORGE].jar
+exact	mods	mods/createnuclear-1.20.1-2.0.0-forge.jar
+exact	mods	mods/createoreexcavation-1.20-1.6.5.jar
+exact	mods	mods/createtaczauto-1.4.8-forge-1.20.1.jar
+exact	mods	mods/createtransmission-1.2.2+forge-create6-1.20.1.jar
+exact	mods	mods/creeperoverhaul-3.0.2-forge.jar
+exact	mods	mods/cristellib-1.1.6-forge.jar
+exact	mods	mods/curios-forge-5.14.1+1.20.1.jar
+exact	mods	mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar
+exact	mods	mods/embeddium-0.3.31+mc1.20.1.jar
+exact	mods	mods/end_villager_outpost-1.0.0-forge-1.20.1.jar
+exact	mods	mods/endergetic-1.20.1-5.0.1.jar
+exact	mods	mods/endermanoverhaul-forge-1.20.1-1.0.4.jar
+exact	mods	mods/endermite-expansion-1.0.0.jar
+exact	mods	mods/endersdelight-forge-1.20.1-1.1.3.jar
+exact	mods	mods/enlightend-5.0.14-1.20.1.jar
+exact	mods	mods/entityculling-forge-1.10.5-mc1.20.1.jar
+exact	mods	mods/epicdeathscreen-forge-1.20.1-1.0.0.jar
+exact	mods	mods/ethecore-0.1.0.jar
+exact	mods	mods/etheria-0.4.2.jar
+exact	mods	mods/explosiveenhancement-forge-1.20.1-1.1.0-client.jar
+exact	mods	mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar
+exact	mods	mods/fancymenu_forge_3.9.12_MC_1.20.1.jar
+exact	mods	mods/fdlib-1.0.9-1.20.1.jar
+exact	mods	mods/ferritecore-6.0.1-forge.jar
+exact	mods	mods/figura-0.1.6+1.20.1-forge-mc.jar
+exact	mods	mods/forgivingvoid-forge-1.20.1-10.0.3.jar
+exact	mods	mods/fragmentum-forge-1.20.1-1.5.2.jar
+exact	mods	mods/ftb-library-forge-2001.2.13.jar
+exact	mods	mods/ftb-quests-forge-2001.4.22.jar
+exact	mods	mods/ftb-teams-forge-2001.3.2.jar
+exact	mods	mods/fzzy_config-0.7.6+1.20.1+forge.jar
+exact	mods	mods/geckolib-forge-1.20.1-4.8.1.jar
+exact	mods	mods/goety-2.5.56.0.jar
+exact	mods	mods/goety_cataclysm-1.20-1.8.2.jar
+exact	mods	mods/grand-teleport-forge-1.20.1-forge-build300.jar
+exact	mods	mods/gtbcs_cataclysmic_uis-1.0.3+1.20.1.jar
+exact	mods	mods/ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+exact	mods	mods/iceandfire-2.1.13-1.20.1-beta-5.jar
+exact	mods	mods/immersive_ballistic-1.3.jar
+exact	mods	mods/immersive_weathering-1.20.1-2.0.5-forge.jar
+exact	mods	mods/interiors-1.20.1-forge-0.6.0.jar
+exact	mods	mods/irons_lib-1.20.1-2.1.0.jar
+exact	mods	mods/irons_spellbooks-1.20.1-3.16.2.jar
+exact	mods	mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar
+exact	mods	mods/jawas_lightsaber-forge-1.20.1-0.4.jar
+exact	mods	mods/jei-1.20.1-forge-15.21.0.148.jar
+exact	mods	mods/justenoughbreeding-forge-1.20.1-3.0.1.jar
+exact	mods	mods/knightlib-forge-1.20.1-2.0.1.jar
+exact	mods	mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
+exact	mods	mods/kotlinforforge-4.12.0-all.jar
+exact	mods	mods/legendarymonsters-2.1.22 MC 1.20.1.jar
+exact	mods	mods/lionfishapi-3.0.jar
+exact	mods	mods/lootr-forge-1.20-0.7.35.94.jar
+exact	mods	mods/lostcities-1.20-7.5.0.jar
+exact	mods	mods/lrtactical-1.20.1-0.4.1.jar
+exact	mods	mods/magic_classes-0.15.0.jar
+exact	mods	mods/magick_and_tech_core-1.0.0-forge-1.20.1.jar
+exact	mods	mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
+exact	mods	mods/modernfix-forge-5.27.66+mc1.20.1.jar
+exact	mods	mods/mofus_broken_constellation-0.9.0-forge-1.20.1.jar
+exact	mods	mods/moonlight-1.20-2.16.34-forge.jar
+exact	mods	mods/mowzies_cataclysm-1.2.0.jar
+exact	mods	mods/mowziesmobs-1.8.2.jar
+exact	mods	mods/notenoughanimations-forge-1.12.4-mc1.20.1.jar
+exact	mods	mods/oculus-mc1.20.1-1.8.0.jar
+exact	mods	mods/oddities-1.0.1-forge-1.20.1.jar
+exact	mods	mods/origins-forge-1.20.1-1.10.0.9-all.jar
+exact	mods	mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar
+exact	mods	mods/phantasm-1.4.jar
+exact	mods	mods/pipeorgans-0.9.1+1.20.1.jar
+exact	mods	mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+exact	mods	mods/proximitycrafting-1.1.0+forge-1.20.1.jar
+exact	mods	mods/resourcefulconfig-forge-1.20.1-2.1.3.jar
+exact	mods	mods/resourcefullib-forge-1.20.1-2.1.29.jar
+exact	mods	mods/rightclickharvest-forge-4.6.1+1.20.1.jar
+exact	mods	mods/saintsdragons-0.9.2+forge-1.20.1.jar
+exact	mods	mods/simplybows-forge-0.1.2.jar
+exact	mods	mods/simplycataclysm-1.0.1+1.20.1+forge.jar
+exact	mods	mods/simplymore-forge-1.1.3.jar
+exact	mods	mods/simplyswords-forge-1.56.0-1.20.1.jar
+exact	mods	mods/sliceanddice-forge-3.6.0.jar
+exact	mods	mods/soul-fire-d-forge-1.20.1-4.0.11.jar
+exact	mods	mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar
+exact	mods	mods/sparsestructures-forge-1.20.1-3.0.jar
+exact	mods	mods/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar
+exact	mods	mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar
+exact	mods	mods/tacz-1.20.1-1.1.8-hotfix.jar
+exact	mods	mods/tfmg-1.0.2f.jar
+exact	mods	mods/tinymobfarm-1.4.1-1.20.1-forge.jar
+exact	mods	mods/travelersbackpack-forge-1.20.1-9.1.56.jar
+exact	mods	mods/traveloptics-6.3.0-1.20.1.jar
+exact	mods	mods/tru.e-ending-v1.1.0c.jar
+exact	mods	mods/uilib-0.3.6-forge.jar
+exact	mods	mods/unusualend-2.3.1.2.jar
+exact	mods	mods/variantsandventures-forge-1.0.26+mc1.20.1.jar
+exact	mods	mods/veinminer-1.1.0.jar
+exact	mods	mods/voicechat-forge-1.20.1-2.6.23.jar
+exact	mods	mods/watut-forge-1.20.1-1.2.3.jar
+exact	mods	mods/waystones-forge-1.20.1-14.1.20.jar
+exact	mods	mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar
+exact	mods	mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+exact	tacz	tacz/Applied Armorer-v1.1.4.1-for114+.zip
+exact	tacz	tacz/Ars Armorer_v1.0.1_for117.zip
+exact	tacz	tacz/Create Armorer-v1.2.0.1-for117.zip
+exact	tacz	tacz/Cyber Armorer-1.1.5_for114.zip
+exact	tacz	tacz/[Tacz1.1.5+] EOS_Dawn Goddess Lab ver1.1.1-hotfix1.zip
+exact	tacz	tacz/[Tacz1.1.5+]TRIS-dyna GunsPack ver1.1.5.zip.zip
+exact	tacz	tacz/cataclysm_guns_1.0.zip
+exact	resourcepacks	resourcepacks/Ender_Dragon_Reborn-1.0-1.21.2+.zip
+exact	shaderpacks	shaderpacks/ComplementaryUnbound_r5.8.1.zip
+exact	shaderpacks	shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip

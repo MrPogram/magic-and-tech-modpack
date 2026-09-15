@@ -1,0 +1,21 @@
+filename = 'ParticleEffects-1.5.0+1.20.1+forge.jar'
+name = 'Particle Effects'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.0+1.20.1+forge'
+
+[download]
+hash = '94b5919760ad34fbe1eb9ba6adbbccc256ff211c6838635bf1d1a102eb6490c0f0d14ff3f3f0d52633e3aec3059f41da10ff2fe5584a47d91531489d1934d3fa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PLAGcSFJ/versions/sZ0IQgRZ/ParticleEffects-1.5.0%2B1.20.1%2Bforge.jar'
+
+[update.modrinth]
+mod-id = 'PLAGcSFJ'
+version = 'sZ0IQgRZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

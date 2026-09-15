@@ -1,0 +1,13 @@
+name = "[TaCZ] EOS - Dawn Goddess Lab - Gunpack 1.1.0"
+filename = "[Tacz1.1.5+] EOS_Dawn Goddess Lab ver1.1.1-hotfix1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2eed264a649841fd559c5dfcbcb83aedd5032ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7182834
+project-id = 1201057

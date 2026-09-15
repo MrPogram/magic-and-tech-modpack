@@ -1,0 +1,13 @@
+name = "[TaCZ]Ars Armorer"
+filename = "Ars Armorer_v1.0.1_for117.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b21147b41e484d1fe0d67e9607da86e37a7880a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7358702
+project-id = 1317400

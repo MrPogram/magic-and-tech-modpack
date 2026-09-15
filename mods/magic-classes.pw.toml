@@ -1,0 +1,8 @@
+name = "Magic Classes"
+filename = "magic_classes-0.15.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MrPogram/magic-and-tech-modpack/releases/download/pack-0.15.0/magic_classes-0.15.0.jar"
+hash-format = "sha256"
+hash = "f7fd968b62d07fcc46aac67c90a8d53f9f1cfb7099b56aaef27a9510293015a0"

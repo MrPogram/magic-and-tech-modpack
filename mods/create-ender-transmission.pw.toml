@@ -1,0 +1,21 @@
+filename = 'createendertransmission-2.1.1-1.20.1.jar'
+name = 'Create: Ender Transmission'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1-1.20.1'
+
+[download]
+hash = '5d64db6dcb554cc186b5a595e37342dbab103ba97afb1838742fb9cdbfa99bbf085515448e81d2bc716cab2d2abe09d095e23f16828140f0b808ce989ef42ca6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wtW8g4TG/versions/c1qVA71x/createendertransmission-2.1.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'wtW8g4TG'
+version = 'c1qVA71x'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

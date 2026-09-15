@@ -1,0 +1,21 @@
+filename = 'lrtactical-1.20.1-0.4.1.jar'
+name = '[TACZ] LesRaisins Tactical Equipements'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4.1'
+
+[download]
+hash = '0e8a82d26b515634728df55c540047ef5c4ab0fa935d9958fd24f24c09dc369b4742e3a6f017eb994f9bd4f8a2075a37601403297f39bae5af2c6d25b6b7626f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AiwNM9O0/versions/McZNhhZ1/lrtactical-1.20.1-0.4.1.jar'
+
+[update.modrinth]
+mod-id = 'AiwNM9O0'
+version = 'McZNhhZ1'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'

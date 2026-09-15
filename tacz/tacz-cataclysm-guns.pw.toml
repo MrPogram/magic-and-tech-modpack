@@ -1,0 +1,13 @@
+name = "[TaCZ] Cataclysm Guns"
+filename = "cataclysm_guns_1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "823bbdad545edadfd9e46e776d687751f08b8e83"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7248594
+project-id = 1389008

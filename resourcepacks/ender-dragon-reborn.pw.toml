@@ -1,0 +1,18 @@
+filename = 'Ender_Dragon_Reborn-1.0-1.21.2+.zip'
+name = 'Ender Dragon Reborn'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '345aa9227187a8c7dd1fa6be94a460d7a0a42f56001757d3f6578f1fae3af4374dfac478c64adee30fbbc149dce4a1a6dd97b02ff9d1e95a32b6acd033fa6f63'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W7Jn0Lba/versions/IzfzHHIG/Ender_Dragon_Reborn-1.0-1.21.2%2B.zip'
+
+[update.modrinth]
+mod-id = 'W7Jn0Lba'
+version = 'IzfzHHIG'

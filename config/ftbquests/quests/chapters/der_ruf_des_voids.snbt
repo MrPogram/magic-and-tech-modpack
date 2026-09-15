@@ -1,0 +1,69 @@
+{
+  default_hide_dependency_lines: false,
+  default_quest_shape: "circle",
+  filename: "der_ruf_des_voids",
+  icon: "minecraft:end_crystal",
+  id: "6D41544350524F4C",
+  order_index: 0,
+  quest_links: [ ],
+  quests: [
+    {
+      description: ["Du erwachst an deinem Platz in einem Tempel des Voids und wirst vom Void gerufen."],
+      id: "6D415450524F4C01",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:prologue/awakened",
+        criterion: "",
+        id: "6D41545441534B01",
+        type: "advancement"
+      }],
+      title: "Erwachen",
+      x: 0.0d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["6D415450524F4C01"],
+      description: ["In der Mitte des Tempels befindet sich ein Void Core. Vielleicht kannst du ihn nutzen, um eine Verbindung zu deinem Schöpfer, dem Void, herzustellen."],
+      id: "6D415450524F4C02",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:prologue/void_contact",
+        criterion: "",
+        id: "6D41545441534B02",
+        type: "advancement"
+      }],
+      title: "Verbindung zum Void",
+      x: 2.5d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["6D415450524F4C02"],
+      description: ["Nach eurem Gespräch hat das Void seine Macht genutzt, um dich in die Oberwelt zu bringen. Es gab dir die Aufgabe, alle Dimensionen niederzustrecken und zu erobern."],
+      id: "6D415450524F4C03",
+      size: 1.5d,
+      tasks: [{
+        advancement: "magic_classes:prologue/overworld_arrival",
+        criterion: "",
+        id: "6D41545441534B03",
+        type: "advancement"
+      }],
+      title: "Ankunft in der Oberwelt",
+      x: 5.0d,
+      y: 0.0d
+    },
+    {
+      dependencies: ["6D415450524F4C03"],
+      description: ["Das Void hat dich mit besonderen Kräften erschaffen. Lerne, sie zu nutzen."],
+      id: "6D415450524F4C04",
+      size: 1.5d,
+      tasks: [{
+        id: "6D41545441534B04",
+        type: "checkmark"
+      }],
+      title: "Lerne deine Klasse kennen",
+      x: 7.5d,
+      y: 0.0d
+    }
+  ],
+  title: "Der Ruf des Voids"
+}

@@ -1,0 +1,22 @@
+filename = 'mofus_broken_constellation-0.9.0-forge-1.20.1.jar'
+name = "Mofu's Better End/ Mofu's Broken Constellation"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.9.0'
+
+[download]
+hash = '1838835b6318e5f7526d5179300fd66eba8886fa6c81fd0b10bcdc4f95f0f91e5d59748f6de224c74e587842816cc09ab79780be9fbf32917fb13e97cfc5e074'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/X6yhW0Ki/versions/RKdHGypu/mofus_broken_constellation-0.9.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'X6yhW0Ki'
+version = 'RKdHGypu'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+version = 'bVtfWE8S'
