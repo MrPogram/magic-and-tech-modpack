@@ -84,6 +84,7 @@ def metadata_matches_file(metadata: dict, jar: Path) -> bool:
 
 
 def build_mod_plan(repo: Path, instance: Path, local_filenames: set[str]) -> ModPlan:
+    validate_instance(instance)
     repo_metadata, repo_errors = load_metadata(repo / "mods")
     instance_metadata, instance_errors = load_metadata(instance / "mods/.index")
     actual = {path.name: path for path in sorted((instance / "mods").glob("*.jar"))}
@@ -186,9 +187,22 @@ def require_clean_repository(repo: Path) -> None:
         )
 
 
-def update_pack_version(pack_file: Path, version: str) -> None:
+def validate_instance(instance: Path) -> None:
+    mods = instance / "mods"
+    metadata = mods / ".index"
+    if not mods.is_dir():
+        raise ValueError(f"Instanz-Modverzeichnis fehlt: {mods}")
+    if not metadata.is_dir():
+        raise ValueError(f"Instanz-Metadatenverzeichnis fehlt: {metadata}")
+
+
+def validate_pack_version(version: str) -> None:
     if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+(?:[-+][0-9A-Za-z.-]+)?", version):
         raise ValueError(f"Ungültige Packversion: {version}")
+
+
+def update_pack_version(pack_file: Path, version: str) -> None:
+    validate_pack_version(version)
     content = pack_file.read_text(encoding="utf-8")
     updated, count = re.subn(r'(?m)^version = "[^"]+"$', f'version = "{version}"', content, count=1)
     if count != 1:
@@ -204,6 +218,19 @@ def packwiz_binary() -> str:
             return str(fallback)
         raise RuntimeError("packwiz wurde nicht gefunden")
     return executable
+
+
+def restore_repository(repo: Path, added_paths: list[Path]) -> None:
+    subprocess.run(
+        ["git", "restore", "--staged", "--worktree", "--", "."], cwd=repo, check=True
+    )
+    root = repo.resolve()
+    for relative in added_paths:
+        target = (root / relative).resolve()
+        if not target.is_relative_to(root):
+            raise RuntimeError(f"Unsicherer Rollbackpfad: {relative}")
+        if target.is_file():
+            target.unlink()
 
 
 def verify_pages(repo: Path) -> None:
@@ -229,6 +256,12 @@ def verify_pages(repo: Path) -> None:
 
 def publish(repo: Path, instance: Path, version: str, assume_yes: bool) -> None:
     require_clean_repository(repo)
+    validate_pack_version(version)
+    validate_instance(instance)
+    packwiz = packwiz_binary()
+    for required in ("pack.toml", "index.toml", "tools/generate_integrity.py"):
+        if not (repo / required).is_file():
+            raise RuntimeError(f"Erforderliche Repositorydatei fehlt: {required}")
     local_filenames = {Path(path).name for path in DEFAULT_LOCAL_FILES if Path(path).parent.as_posix() == "mods"}
     plan = build_mod_plan(repo, instance, local_filenames)
     print_plan(plan)
@@ -247,15 +280,25 @@ def publish(repo: Path, instance: Path, version: str, assume_yes: bool) -> None:
             print("Abgebrochen; keine Dateien wurden verändert.")
             return
 
-    apply_mod_plan(plan)
-    normalize_repository_metadata(repo)
-    update_pack_version(repo / "pack.toml", version)
-    run([packwiz_binary(), "refresh"], repo)
-    run([sys.executable, "tools/generate_integrity.py", "--instance", str(instance)], repo)
-    run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"], repo)
-    run(["git", "add", "pack.toml", "index.toml", "integrity-manifest.tsv", "mods"], repo)
-    run(["git", "diff", "--cached", "--check"], repo)
-    run(["git", "commit", "-m", f"Publish pack {version}"], repo)
+    committed = False
+    try:
+        apply_mod_plan(plan)
+        normalize_repository_metadata(repo)
+        update_pack_version(repo / "pack.toml", version)
+        run([packwiz, "refresh"], repo)
+        run([sys.executable, "tools/generate_integrity.py", "--instance", str(instance)], repo)
+        run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"], repo)
+        run(["git", "add", "pack.toml", "index.toml", "integrity-manifest.tsv", "mods"], repo)
+        run(["git", "diff", "--cached", "--check"], repo)
+        run(["git", "commit", "-m", f"Publish pack {version}"], repo)
+        committed = True
+    except Exception:
+        if not committed:
+            restore_repository(
+                repo,
+                [change.target.relative_to(repo) for change in plan.added],
+            )
+        raise
     run(["git", "push"], repo)
     verify_pages(repo)
     print(f"Pack {version} wurde vollständig veröffentlicht.")
@@ -275,11 +318,11 @@ def main() -> None:
     repo = args.repo.resolve()
     instance = args.instance.resolve()
     local_filenames = {Path(path).name for path in DEFAULT_LOCAL_FILES if Path(path).parent.as_posix() == "mods"}
-    if args.dry_run:
-        plan = build_mod_plan(repo, instance, local_filenames)
-        print_plan(plan)
-        raise SystemExit(2 if plan.unresolved else 0)
     try:
+        if args.dry_run:
+            plan = build_mod_plan(repo, instance, local_filenames)
+            print_plan(plan)
+            raise SystemExit(2 if plan.unresolved else 0)
         publish(repo, instance, args.version, args.yes)
     except (OSError, RuntimeError, ValueError, subprocess.CalledProcessError) as error:
         print(f"FEHLER: {error}", file=sys.stderr)

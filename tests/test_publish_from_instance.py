@@ -1,9 +1,17 @@
 import hashlib
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
-from tools.publish_from_instance import apply_mod_plan, build_mod_plan, normalize_metadata_text
+from tools.publish_from_instance import (
+    apply_mod_plan,
+    build_mod_plan,
+    normalize_metadata_text,
+    publish,
+    restore_repository,
+)
 
 
 class PublishFromInstanceTest(unittest.TestCase):
@@ -90,6 +98,61 @@ class PublishFromInstanceTest(unittest.TestCase):
         self.assertIn("side = 'both'", normalized)
         self.assertNotIn("url = ''", normalized)
 
+    def test_missing_instance_mod_directory_aborts_instead_of_planning_removals(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            repo = root / "repo"
+            (repo / "mods").mkdir(parents=True)
+            write_metadata(repo / "mods/existing.pw.toml", "existing.jar", b"existing")
+
+            with self.assertRaisesRegex(ValueError, "Instanz-Modverzeichnis fehlt"):
+                build_mod_plan(repo, root / "mistyped-instance", set())
+
+    def test_missing_instance_cli_error_has_no_traceback(self):
+        script = Path(__file__).resolve().parents[1] / "tools/publish_from_instance.py"
+        result = subprocess.run(
+            [sys.executable, str(script), "0.15.2", "--dry-run", "--instance", "/tmp/does-not-exist"],
+            text=True,
+            capture_output=True,
+        )
+
+        self.assertEqual(1, result.returncode)
+        self.assertIn("FEHLER: Instanz-Modverzeichnis fehlt", result.stderr)
+        self.assertNotIn("Traceback", result.stderr)
+
+    def test_invalid_version_cannot_mutate_repository(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repo, instance = make_layout(Path(directory))
+            write_mod(instance, "new.jar", b"new")
+            write_metadata(instance / "mods/.index/new.pw.toml", "new.jar", b"new")
+            initialize_git_repository(repo)
+
+            with self.assertRaisesRegex(ValueError, "Ungültige Packversion"):
+                publish(repo, instance, "not-a-version", True)
+
+            self.assertFalse((repo / "mods/new.pw.toml").exists())
+            self.assertEqual("", git(repo, "status", "--porcelain"))
+
+    def test_failed_publication_restore_removes_added_and_restores_deleted_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repo, _ = make_layout(Path(directory))
+            old = repo / "mods/old.pw.toml"
+            write_metadata(old, "old.jar", b"old")
+            (repo / "pack.toml").write_text('version = "0.15.0"\n', encoding="utf-8")
+            initialize_git_repository(repo)
+
+            old.unlink()
+            (repo / "mods/new.pw.toml").write_text("new", encoding="utf-8")
+            (repo / "pack.toml").write_text('version = "broken"\n', encoding="utf-8")
+            git(repo, "add", "-A")
+
+            restore_repository(repo, [Path("mods/new.pw.toml")])
+
+            self.assertTrue(old.is_file())
+            self.assertFalse((repo / "mods/new.pw.toml").exists())
+            self.assertEqual('version = "0.15.0"\n', (repo / "pack.toml").read_text(encoding="utf-8"))
+            self.assertEqual("", git(repo, "status", "--porcelain"))
+
 
 def make_layout(root: Path) -> tuple[Path, Path]:
     repo = root / "repo"
@@ -111,6 +174,21 @@ def write_metadata(path: Path, filename: str, content: bytes) -> None:
         f'url = "https://example.invalid/{filename}"\n',
         encoding="utf-8",
     )
+
+
+def initialize_git_repository(repo: Path) -> None:
+    (repo / ".baseline").write_text("test\n", encoding="utf-8")
+    git(repo, "init", "-q")
+    git(repo, "config", "user.name", "Test")
+    git(repo, "config", "user.email", "test@example.invalid")
+    git(repo, "add", "-A")
+    git(repo, "commit", "-q", "-m", "baseline")
+
+
+def git(repo: Path, *args: str) -> str:
+    return subprocess.run(
+        ["git", *args], cwd=repo, check=True, text=True, capture_output=True
+    ).stdout.strip()
 
 
 if __name__ == "__main__":
