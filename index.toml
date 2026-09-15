@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".nojekyll"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = ".packignore"
-hash = "bf46f265fbff0ebc35f72e77badb9b93194af29a0ab49088478e26ede57b4f83"
-
-[[files]]
-file = "README.md"
-hash = "a4e36abc8fa2e403bd5bef50af0c573abad45068d899ad91d0a0a20d6cc9e1d4"
-
-[[files]]
-file = "RELEASING.md"
-hash = "8150eebdfd924a247a82253906d534f494b15294148aeb5d2dc79b6167dc0667"
-
-[[files]]
 file = "config/fancymenu/assets/magic_and_tech/button_hover.png"
 hash = "b041160c21ca283ace68a860ce0b43320ce52d843cd9d049230ad275985970bd"
 
@@ -69,10 +53,6 @@ file = "config/iceandfire-client.toml"
 hash = "2951cb48c8ceb7c4ab70652af11efc6f7fdfa65237a718697c4282026cd5fa1e"
 
 [[files]]
-file = "dist/Magic-and-Tech-Starter-0.15.0.zip"
-hash = "a8b87a95a55e8acfb0e035211eaa8de4709bf0fed6cce7d625a41ebd0f96b976"
-
-[[files]]
 file = "figura/avatars/MagicClasses/avatar.json"
 hash = "cb43764aa6ec25b3b0bae8fd89b84c9b8d85362c40fe08a61783159eacae4750"
 
@@ -95,10 +75,6 @@ hash = "d45d14ca24754528a0a7b73efb48395f4ee4347f2d9b3e13bc6679eeb9cfd7cf"
 [[files]]
 file = "figura/avatars/MagicClasses/texture.png"
 hash = "c45d7ad1ad9365ef02059685b3b8025a833c483ea0734d3d93f6c42f097e6e02"
-
-[[files]]
-file = "integrity-manifest.tsv"
-hash = "5b0484d56d978ff36091eda6be1ec3f1f0206730c674aa334c148a695fd2d18a"
 
 [[files]]
 file = "mods/alexs-caves-enlightened-compat.pw.toml"
@@ -188,6 +164,11 @@ metafile = true
 [[files]]
 file = "mods/bosses-oddities.pw.toml"
 hash = "14bc59ff6f10c0a3d43f3cd0201fb52e5ef1c8770091aeff9ed9ad36a7a73406"
+metafile = true
+
+[[files]]
+file = "mods/bossesrise.pw.toml"
+hash = "ee892fd4cbe8b81cc7cb59c7238029b1053a157f76a0e7c0b0315b176fb18a86"
 metafile = true
 
 [[files]]
@@ -806,6 +787,11 @@ hash = "940e1e3c1806d266e0fb7692b8cc1d7ff01c96cf96be844dd4a2cdf220ffa2d9"
 metafile = true
 
 [[files]]
+file = "mods/qliphoth-awakening.pw.toml"
+hash = "4f8802a77af61d0ad1765790d4fb124141dbd39441356c33b6fcf0193d47d167"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "9644ce2c05ece1ce1eb680e01dfbc88639a278ba106d2a0b3cdb447d7d37c364"
 metafile = true
@@ -1034,107 +1020,3 @@ metafile = true
 file = "tacz/tacz-eoslab-gunpack.pw.toml"
 hash = "a5ed01718ec2f2da65041b11bddda34a36f9c44eb8771fb4ae7be430a79bd8b3"
 metafile = true
-
-[[files]]
-file = "tests/__init__.py"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "tests/__pycache__/test_build_starter.cpython-311.pyc"
-hash = "00891cad32edc91cb986d3f771b406df2299438511996e08c27ef844cc0aa1c7"
-
-[[files]]
-file = "tests/__pycache__/test_generate_integrity.cpython-311.pyc"
-hash = "c332b36658af8bb24d6fccecbf43e2df18df9f067e5caf7c4a9d73cf9d106108"
-
-[[files]]
-file = "tests/test_build_starter.py"
-hash = "c4227fb5d8852815d5c246d824060dd0f64995b00a0a0ca0aaded469589ea20f"
-
-[[files]]
-file = "tests/test_generate_integrity.py"
-hash = "a9ff00d8166160731781eddfa4d993eaa6915929de1dd8cb7decb09a73797234"
-
-[[files]]
-file = "tools/__init__.py"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "tools/__pycache__/__init__.cpython-311.pyc"
-hash = "f8f53d8c23b7c1eafd38ccf02b5824746cdbddd82ffe91aa0f90db8a8a678cb1"
-
-[[files]]
-file = "tools/__pycache__/build_starter.cpython-311.pyc"
-hash = "87d56f6f35cca34a7584f8e6274912c723bb08444c6535775648f8908ce25adf"
-
-[[files]]
-file = "tools/__pycache__/generate_integrity.cpython-311.pyc"
-hash = "a0071f226a9806f4a18efe9c03f2b83aa086e163ae923db506f8238635176872"
-
-[[files]]
-file = "tools/build_starter.py"
-hash = "7fd471f18d745adb4220988bfb2c71df7f9bfe143667ab202d4e58bc9b823e28"
-
-[[files]]
-file = "tools/generate_integrity.py"
-hash = "34df558170aae091f819b529e2e64e2c7986e390cd3aa8afe4a5195935ecbdd7"
-
-[[files]]
-file = "updater/build/MANIFEST.MF"
-hash = "58bcd6ebf3edb3d7f48d9595e6af4c09a1d57020e73ac8f0d88bbfb33262d675"
-
-[[files]]
-file = "updater/build/classes/dev/elias/magictech/updater/IntegrityManifest$Entry.class"
-hash = "fa8a00bd631eacf074b5be8256512c3ef5b1c194c3cf1a55bf067adf73f23b04"
-
-[[files]]
-file = "updater/build/classes/dev/elias/magictech/updater/IntegrityManifest.class"
-hash = "d38e5e24e227a46e57f53f81e3ac8259830ef5a271565131c7da4bcaecb70a05"
-
-[[files]]
-file = "updater/build/classes/dev/elias/magictech/updater/IntegrityVerifier.class"
-hash = "ec275c3edb1e2f00df73ffe6b687ec2e66325703082af0d1299ed2224380c58f"
-
-[[files]]
-file = "updater/build/classes/dev/elias/magictech/updater/MagicTechUpdater.class"
-hash = "42963680a606d46f46d4dd25e1fca49c2c4f02dd0dff4901d32041bde42b4b5f"
-
-[[files]]
-file = "updater/build/classes/dev/elias/magictech/updater/RollbackSnapshot.class"
-hash = "b1097710712c397a3c36c1faffb35bee533296a00ae81dbc0f300a01bfd23653"
-
-[[files]]
-file = "updater/build/magic-tech-updater.jar"
-hash = "5b6392726835b0108da2158a8372811820ae61ec1af89211df23ac4cae134dd7"
-
-[[files]]
-file = "updater/build/packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
-
-[[files]]
-file = "updater/build/test-classes/dev/elias/magictech/updater/IntegrityVerifierTest$ThrowingRunnable.class"
-hash = "ebf2992135a3cac4010c338c0b067b294a03d4088a22a47bb52a39f9be495b4d"
-
-[[files]]
-file = "updater/build/test-classes/dev/elias/magictech/updater/IntegrityVerifierTest.class"
-hash = "82286f7750f2898b02558b40609991b0e3124624afd2df1d3aaf454fe1f97c4c"
-
-[[files]]
-file = "updater/src/dev/elias/magictech/updater/IntegrityManifest.java"
-hash = "f9aadf13daed11c0c3e21574e4577c7b977a34aec8507fe7cc7f367e80757609"
-
-[[files]]
-file = "updater/src/dev/elias/magictech/updater/IntegrityVerifier.java"
-hash = "898afed5ee0dd023c24911c6ec6e5393ca2a482b9a27758059e53a549b442430"
-
-[[files]]
-file = "updater/src/dev/elias/magictech/updater/MagicTechUpdater.java"
-hash = "d43dd7741687772283b9a52ca2ce0b489c16c82096f872cdc25814028b2526ae"
-
-[[files]]
-file = "updater/src/dev/elias/magictech/updater/RollbackSnapshot.java"
-hash = "9f22eeb24bef01ee59567a26608112e8480f07a70a1b7cca19868d726d1b3e12"
-
-[[files]]
-file = "updater/test/dev/elias/magictech/updater/IntegrityVerifierTest.java"
-hash = "0bdfdcff7beadef8a6e56aa91e88bf813836d539f680e03e1851d4016d579ef6"

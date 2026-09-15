@@ -68,6 +68,7 @@ file	managed	2e61c531121902499b558aa22b9860a5a1d7aaa26f9b5ea727d8a758d808470f	31
 file	managed	bacef3f365dc41a786deff1384a221302ce6aefc2a91eb765f85a5a641a9b408	561670	mods/balm-forge-1.20.1-7.3.42.jar
 file	managed	49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1	1054339	mods/bettercombat-forge-1.9.0+1.20.1.jar
 file	managed	0319729b58edf917b88cfb9b0cd939bb19e778c29a8083a0a61d869419032f6c	1623254	mods/bits_n_bobs-0.0.41.jar
+file	managed	8c61087aa483f90861451682519582e03fa76e773d855e35180a8ed3428938bc	23963009	mods/block_factorys_bosses-2.1.2-forge-1.20.1.jar
 file	managed	41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0	1165189	mods/blueprint-1.20.1-7.1.4.jar
 file	managed	43cabe35f0618c0bd01af02e7568ca6f15fd32bb6a90d04c9898bb01e8dc1e81	40125	mods/caelus-forge-3.2.0+1.20.1.jar
 file	managed	be9cc0afc969a7f50b7aaa4d5d29bdbf83fa392c5d6bc2e83c9a06c32f0320b9	8975	mods/cataclysm-to-magic-fix-1.1.0.jar
@@ -119,6 +120,7 @@ file	managed	30d6adf4ef9c46da86ec02b369f6c270da911ebfe6c06830fb66aecc0ccdc07e	39
 file	managed	a95ccaa83a94468357bd57806a2e1fd36f1e0aa04fd04b51df632f56ccb53e66	85868	mods/explosiveenhancement-forge-1.20.1-1.1.0-client.jar
 file	managed	6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1	4025908	mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar
 file	managed	60aa6a94e0c021c989bbea978ea6a233ac2e23e364f15825a8beb7b5ab0b94cf	26181250	mods/fancymenu_forge_3.9.12_MC_1.20.1.jar
+file	managed	cafc218c02e5455c91273dbc209f49ea7574a38d69a5e42bb6b279e200e05d42	26329336	mods/fdbosses-3.1.0.3-1.20.1.jar
 file	managed	27dc0b1bd0ec9fae0ab97ebeb09cc4d8cf16cdae7eae12d2e0e49c0264e0cd6b	1647611	mods/fdlib-1.0.9-1.20.1.jar
 file	managed	9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54	123034	mods/ferritecore-6.0.1-forge.jar
 file	managed	3988f6263875fad029e8ecdf692d3477c97d0e278505895936a97ff6f07c9e85	2401921	mods/figura-0.1.6+1.20.1-forge-mc.jar
@@ -839,6 +841,7 @@ exact	mods	mods/baguettelib-1.20.1-Forge-1.1.6.jar
 exact	mods	mods/balm-forge-1.20.1-7.3.42.jar
 exact	mods	mods/bettercombat-forge-1.9.0+1.20.1.jar
 exact	mods	mods/bits_n_bobs-0.0.41.jar
+exact	mods	mods/block_factorys_bosses-2.1.2-forge-1.20.1.jar
 exact	mods	mods/blueprint-1.20.1-7.1.4.jar
 exact	mods	mods/caelus-forge-3.2.0+1.20.1.jar
 exact	mods	mods/cataclysm-to-magic-fix-1.1.0.jar
@@ -890,6 +893,7 @@ exact	mods	mods/etheria-0.4.2.jar
 exact	mods	mods/explosiveenhancement-forge-1.20.1-1.1.0-client.jar
 exact	mods	mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar
 exact	mods	mods/fancymenu_forge_3.9.12_MC_1.20.1.jar
+exact	mods	mods/fdbosses-3.1.0.3-1.20.1.jar
 exact	mods	mods/fdlib-1.0.9-1.20.1.jar
 exact	mods	mods/ferritecore-6.0.1-forge.jar
 exact	mods	mods/figura-0.1.6+1.20.1-forge-mc.jar
