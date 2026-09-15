@@ -1,6 +1,6 @@
 filename = 'forgivingvoid-forge-1.20.1-10.0.3.jar'
 name = 'Forgiving Void'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

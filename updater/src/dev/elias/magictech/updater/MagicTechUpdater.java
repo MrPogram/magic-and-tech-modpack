@@ -54,6 +54,8 @@ public final class MagicTechUpdater {
                 System.out.println("[Magic and Tech Updater] Creating rollback snapshot for " + previous.version());
                 RollbackSnapshot.create(root, rollbackRoot, previous);
                 rollbackCreated = true;
+            } else {
+                prepareSameVersionRepair(root, remoteManifest);
             }
         } else {
             Files.createDirectories(stateRoot);
@@ -84,16 +86,34 @@ public final class MagicTechUpdater {
         }
     }
 
+    static boolean prepareSameVersionRepair(Path root, IntegrityManifest manifest) throws IOException {
+        try {
+            IntegrityVerifier.verify(root, manifest, false);
+            return false;
+        } catch (IOException integrityFailure) {
+            System.err.println("[Magic and Tech Updater] Current pack is damaged; forcing a complete Packwiz repair: "
+                    + integrityFailure.getMessage());
+            Files.deleteIfExists(root.resolve("packwiz.json"));
+            return true;
+        }
+    }
+
     private static int runPackwiz(Path root, Path bootstrap, String packUrl) throws IOException, InterruptedException {
         String executable = System.getProperty("os.name").toLowerCase().contains("win") ? "java.exe" : "java";
         Path java = Path.of(System.getProperty("java.home"), "bin", executable);
-        Process process = new ProcessBuilder(
+        Process process = new ProcessBuilder(packwizCommand(java, bootstrap, packUrl))
+                .directory(root.toFile()).inheritIO().start();
+        return process.waitFor();
+    }
+
+    static List<String> packwizCommand(Path java, Path bootstrap, String packUrl) {
+        return List.of(
                 java.toString(),
                 "-jar",
                 bootstrap.toString(),
+                "-g",
                 packUrl
-        ).directory(root.toFile()).inheritIO().start();
-        return process.waitFor();
+        );
     }
 
     private static byte[] download(String url) throws IOException, InterruptedException {

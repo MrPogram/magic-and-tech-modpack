@@ -7,9 +7,29 @@
 - Never publish a third-party binary unless its original platform metadata or redistribution permission is verified.
 - A release is complete only after a clean starter install, SHA-256 verification, removal test, rollback test, and real Forge launch.
 
-## Updating platform-hosted content
+## Normal mod release: one command
 
-Use Packwiz from this repository:
+Add, update, and remove mods in the owner PrismLauncher instance as usual. Then run:
+
+```bash
+./tools/publish_from_instance.py <new-pack-version>
+```
+
+Example:
+
+```bash
+./tools/publish_from_instance.py 0.15.1
+```
+
+The command compares every active top-level Mod JAR with this repository. It imports all matching `.pw.toml` metadata from the instance—including separately installed dependencies—removes metadata for deleted JARs, checks source hashes, updates the pack version and integrity manifest, runs the Python regression suite, commits, pushes, and waits until GitHub Pages serves byte-identical manifests.
+
+Before changing or publishing anything it prints the complete add/update/remove plan and asks for confirmation. `--dry-run` only reports the plan. If any JAR lacks hash-correct source metadata, publication fails closed and lists every unresolved file; it never publishes a partial pack.
+
+The repository must be clean before publication so unrelated work cannot be included accidentally. The command handles Mod JAR changes only; reviewed config, quest, Figura, TaCZ, resource-pack, and shader-pack changes remain explicit release inputs.
+
+## Manual fallback for platform-hosted content
+
+Only use these commands when the automatic scan reports an unresolved Mod JAR:
 
 ```bash
 packwiz modrinth add <project-or-url>

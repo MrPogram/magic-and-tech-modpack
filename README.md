@@ -38,3 +38,11 @@ Some required third-party files have no verified public redistribution URL. They
 - Integrity manifest: `https://mrpogram.github.io/magic-and-tech-modpack/integrity-manifest.tsv`
 
 See [RELEASING.md](RELEASING.md) for the maintainer workflow.
+
+For ordinary Mod additions, updates, dependency changes, and removals, the owner publishes the complete current instance delta with one command:
+
+```bash
+./tools/publish_from_instance.py <new-pack-version>
+```
+
+Players still only start Minecraft; this command is exclusively for the pack owner.

@@ -15,6 +15,8 @@ public final class IntegrityVerifierTest {
         rejectsUnexpectedTopLevelJar();
         rejectsPathTraversal();
         restoresManagedFilesWithoutTouchingLocalFiles();
+        packwizRunsWithoutInteractiveGui();
+        corruptedCurrentPackForcesPackwizRepair();
         System.out.println("IntegrityVerifierTest: PASS");
     }
 
@@ -101,6 +103,36 @@ public final class IntegrityVerifierTest {
         assertEquals("managed-before", Files.readString(managed), "managed mod rollback");
         assertEquals("config-before", Files.readString(config), "config rollback");
         assertEquals("local-after", Files.readString(local), "local-only file must remain untouched");
+    }
+
+    private static void packwizRunsWithoutInteractiveGui() {
+        List<String> command = MagicTechUpdater.packwizCommand(
+                Path.of("java"), Path.of("bootstrap.jar"), "https://example.invalid/pack.toml");
+        if (!command.equals(List.of(
+                "java", "-jar", "bootstrap.jar", "-g", "https://example.invalid/pack.toml"))) {
+            throw new AssertionError("Packwiz must run headlessly: " + command);
+        }
+    }
+
+    private static void corruptedCurrentPackForcesPackwizRepair() throws Exception {
+        Path root = Files.createTempDirectory("integrity-repair");
+        Path managed = root.resolve("config/managed.txt");
+        Files.createDirectories(managed.getParent());
+        Files.writeString(managed, "expected", StandardCharsets.UTF_8);
+        IntegrityManifest manifest = IntegrityManifest.parse(List.of(
+                "magic-tech-integrity-v1",
+                "version\t0.15.0",
+                "file\tmanaged\t" + sha256(managed) + "\t8\tconfig/managed.txt"
+        ));
+        Files.writeString(managed, "corrupt", StandardCharsets.UTF_8);
+        Path packwizState = root.resolve("packwiz.json");
+        Files.writeString(packwizState, "{}", StandardCharsets.UTF_8);
+
+        boolean repairRequired = MagicTechUpdater.prepareSameVersionRepair(root, manifest);
+
+        if (!repairRequired || Files.exists(packwizState)) {
+            throw new AssertionError("Corrupt current pack must clear packwiz state for a full repair");
+        }
     }
 
     private static String sha256(Path path) throws Exception {

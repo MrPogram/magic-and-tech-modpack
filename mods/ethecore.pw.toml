@@ -1,6 +1,6 @@
 filename = 'ethecore-0.1.0.jar'
 name = 'Ethecore'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

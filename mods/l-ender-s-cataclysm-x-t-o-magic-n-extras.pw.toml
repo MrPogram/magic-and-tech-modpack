@@ -1,6 +1,6 @@
 filename = 'cataclysm-to-magic-fix-1.1.0.jar'
 name = "L_Ender 's Cataclysm x  T.O Magic 'n Extras compability fix"
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'cataclysm-to-magic-fix-1.1.0'
 hash = '50f4d4265a22fb2a7d54e9487d4667dbcb72f2d3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 8670229
 project-id = 1652629
