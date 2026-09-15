@@ -1,5 +1,4 @@
 # Packwiz metadata and generated build outputs
-.packwizignore
 .packwiz/
 dist/
 starter/
